@@ -1,0 +1,203 @@
+
+
+/*** 
+=============================================
+    Faq Style1 Area Css
+=============================================
+***/
+.faq-style1-area {
+    position: relative;
+    display: block;
+    background: #e9ebf4;
+    padding: 0px 0 0px;
+}
+.faq-style1-area.pad120-0{
+    padding: 120px 0 120px;
+}
+
+.faq-style1-area .layer-outer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+
+.faq-style1-image-box{
+    position: relative;
+    display: block;
+}
+.faq-style1-image-box .inner{
+    position: relative;
+    display: block;
+}
+.faq-style1-image-box .inner::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, .2);
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    z-index: 10;
+}
+.faq-style1-image-box:hover .inner::before{
+    -webkit-animation: circle .75s;
+    animation: circle .75s;    
+}
+.faq-style1-image-box .inner img {
+    max-width: none;
+    float: right;
+}
+
+
+
+.faq-style1-content {
+    position: relative;
+    display: block;
+    margin-left: 100px;
+    padding: 69px 0;
+}
+.faq-style1-content .sec-title {
+    padding-bottom: 41px;
+}
+.faq-style1-content .sec-title h2 {
+    font-weight: 400;
+    text-transform: none;
+}
+.faq-style1-content .sec-title h2 span{
+    font-weight: 700;
+}
+
+
+.accordion-box {
+    position: relative;
+    display: block;
+    border-bottom: 1px solid #e1e2e5;
+}
+.accordion-box .accordion {
+    position: relative;
+    display: block;
+    padding: 14px 0px 14px;
+    border-top: 1px solid #e1e2e5;
+}
+.accordion-box .accordion .accord-btn {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    transition: all 500ms ease;
+}
+.accordion-box .accordion .accord-btn h4 {
+    color: #11161e;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 500ms ease;
+}
+.accordion-box .accordion .accord-btn::after {
+    font-family: Flaticon;
+    position: absolute;
+    content: "\f110";
+    top: 50%;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    background: #ffffff;
+    color: #222222;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 600;
+    text-align: center;
+    transform: translateY(-50%);
+    opacity: 1;
+    transition: all 500ms ease 0s;
+    display: none;
+}
+.accordion-box .accordion .accord-btn.active {
+    position: relative;
+}
+
+.accordion-box .accordion .accord-btn.active:after{
+    content: "\f115";
+    color: #ffffff;
+    opacity: 1;
+}
+.accordion-box .accordion .accord-btn h4 span{
+    position: relative;
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.accordion-box .accordion .accord-content {
+    position: relative;
+    display: block;
+    padding-top: 17px;
+    padding-bottom: 9px;
+    padding-left: 45px;
+    padding-right: 0px;
+    display: none;
+    z-index: 1;
+}
+.accordion-box .accordion .accord-content.collapsed {
+    display: block;
+}
+.accordion-box .accordion .accord-content p {
+    margin: 0;
+}
+
+
+
+
+
+.faq-style2-image-box{
+    position: relative;
+    display: block;
+}
+.faq-style2-image-box .inner{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.faq-style2-image-box .inner::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, .2);
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    z-index: 10;
+}
+.faq-style2-image-box:hover .inner::before{
+    -webkit-animation: circle .75s;
+    animation: circle .75s;    
+}
+.faq-style2-image-box .inner img {
+    width: 100%;
+}
+
+
+
+
+
+

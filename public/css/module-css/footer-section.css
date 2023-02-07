@@ -1,0 +1,213 @@
+
+
+/*** 
+=============================================
+    Footer area style
+=============================================
+***/
+.footer-area {
+    position: relative;
+    display: block;
+    padding: 0px 0px 0px;
+    background: #11161e;
+    z-index: 1;
+}
+
+.footer {
+    position: relative;
+    display: block;
+    padding: 90px 0 80px;
+    z-index: 1;
+}
+.single-footer-widget {
+    position: relative;
+    display: block;
+}
+.single-footer-widget.martop {
+    margin-top: 30px;
+}
+
+.single-footer-widget .title {
+    position: relative;
+    display: block;
+    margin-top:-4px;
+    margin-bottom: 29px;
+}
+.single-footer-widget .title h3{
+    position: relative;
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+
+
+.single-footer-widget .our-company-info{
+    position: relative;
+    display: block;
+}
+.single-footer-widget .our-company-info .footer-logo {
+    position: relative;
+    display: block;
+    padding-bottom: 20px;
+}
+.single-footer-widget .our-company-info .footer-logo a{
+    display: inline-block;
+}
+.single-footer-widget .our-company-info .text-box {
+    position: relative;
+    display: block;
+    margin-bottom: 40px;
+}
+.single-footer-widget .our-company-info .text-box p{
+    color: #777777;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.footer-social-links{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+.footer-widget-links1{
+    position: relative;
+    display: block;
+}
+.footer-widget-links1 li{
+    position: relative;
+    display: block;
+    margin-bottom: 16px;
+}
+.footer-widget-links1 li:last-child{
+    margin-bottom: 0;
+}
+.footer-widget-links1 li a {
+    position: relative;
+    display: inline-block;
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    transition: all 500ms ease;
+}
+.footer-widget-links1 li a i{
+    position: relative;
+    display: inline-block;
+    padding-right: 8px;
+}
+.footer-widget-links1 li a:hover{
+    color: #ffffff;
+}
+
+
+
+
+.single-footer-widget .instagram{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding-top: 6px;
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+}
+.single-footer-widget .instagram li{
+    position: relative;
+    display: block;
+    float: left;
+    width: 70px;
+    min-height: 70px;
+    margin: 0 7.5px 15px; 
+}
+.single-footer-widget .instagram li .img-box{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.single-footer-widget .instagram li .img-box img{
+    width: 100%;
+}
+.single-footer-widget .instagram li .img-box .overlay-content{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.80);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;   
+}
+.single-footer-widget .instagram li:hover .img-box .overlay-content{
+    transform: scale(1.0);
+}
+.single-footer-widget .instagram li .img-box .overlay-content a{
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 15px;
+    transform: scale(0);
+    transition: all 500ms ease 100ms;
+}
+.single-footer-widget .instagram li:hover .img-box .overlay-content a{
+    transform: scale(1.0);
+    transition: all 700ms ease 600ms;
+}
+
+
+.footer-bottom {
+    position: relative;
+    display: block;
+    background: #0e131a;
+    padding: 27px 0;
+}
+.footer-bottom_content_box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.copyright-text {
+    position: relative;
+    display: block;
+}
+.copyright-text p{
+    color:#777777;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 500;
+    margin: 0;
+}
+.copyright-text p a {
+    color: #ffffff;
+    font-weight: 700;
+    transition: all 500ms ease;
+}
+
+
+
+.footer-area .border-box {
+    border-left: 30px solid #ffffff;
+    border-bottom: 30px solid #ffffff;
+    border-right: 30px solid #ffffff;    
+}
+
+
+
+
+

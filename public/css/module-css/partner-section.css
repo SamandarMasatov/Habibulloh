@@ -1,0 +1,162 @@
+
+
+/*** 
+=============================================
+    Partner Area Css
+=============================================
+***/
+.partner-area {
+    position: relative;
+    display: block;
+    z-index: 2;
+}
+.partner-area::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: #f3f3f4;
+    content: "";
+    z-index: -1;
+}
+.partner-area::after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50%;
+    background: #11161e;
+    content: "";
+    z-index: -1;
+}
+
+
+
+.partner-box {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.single-partner-logo-box {
+    position: relative;
+    background: #ffffff;
+    text-align: center;
+    z-index: 1;
+}
+.single-partner-logo-box:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    -webkit-transform: perspective(400px) rotateX(-90deg);
+    -ms-transform: perspective(400px) rotateX(-90deg);
+    transform: perspective(400px) rotateX(-90deg);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    z-index: -1;
+}
+.single-partner-logo-box:hover:before {
+    opacity: 1;
+    -webkit-transform: perspective(400px) rotateX(0deg);
+    -ms-transform: perspective(400px) rotateX(0deg);
+    transform: perspective(400px) rotateX(0deg);
+}
+
+.single-partner-logo-box a {
+    position: relative;
+    display: inline-block;
+}
+.single-partner-logo-box a img {
+    transition: all 0.2s ease-in-out 0.1s;
+}
+.single-partner-logo-box:hover a img{
+    filter: grayscale(1);
+    transition: all 0.8s ease-in-out 0.1s;
+}
+
+.single-partner-logo-box .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    -webkit-transform: perspective(400px) rotateX(90deg);
+    -ms-transform: perspective(400px) rotateX(90deg);
+    transform: perspective(400px) rotateX(90deg);
+    -webkit-transform-origin: bottom;
+    -ms-transform-origin: bottom;
+    transform-origin: bottom;
+    z-index: 1;    
+}
+.single-partner-logo-box:hover .overlay{
+    opacity: 1;
+    -webkit-transform: perspective(400px) rotateX(0deg);
+    -ms-transform: perspective(400px) rotateX(0deg);
+    transform: perspective(400px) rotateX(0deg);
+    box-shadow: 0px 15px 27px 3px rgba(238, 50, 74, 0.35);
+}
+
+
+
+.partner-area.bg_white::before {
+    background: #ffffff;
+}
+.partner-box.bg-gray .single-partner-logo-box {
+    background: #f3f3f4;
+}
+
+
+
+
+
+/*** 
+=============================================
+    Partner Style2 Area Css
+=============================================
+***/
+.partner-style2-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+}
+.partner-style2-area .partner-box{
+    border-top: 1px solid #e7e7e8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

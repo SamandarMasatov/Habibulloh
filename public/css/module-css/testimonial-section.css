@@ -1,0 +1,304 @@
+
+
+/*** 
+=============================================
+    Testimonial Style1 Area Css
+=============================================
+***/
+.testimonial-style1-area{
+    position: relative;
+    display: block;
+    background: #f3f3f4;
+    padding: 0px 0 0px;
+}
+.testimonial-style1-content {
+    position: relative;
+    display: block;
+    padding-top: 385px;
+}
+.testimonial-style1-content_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 487px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    z-index: 1;
+}
+.testimonial-style1-content .inner-content {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 61px 70px 50px;
+}
+.testimonial-style1-content .quote-icon {
+    position: absolute;
+    top: 60px;
+    left: 35px;
+    font-size: 70px;
+    display: inline-block;
+    transform: rotateX(
+180deg
+);
+}
+
+.single-testimonial-style1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.single-testimonial-style1 .text-holder{
+    position: relative;
+    display: block;
+    max-width: 740px;
+    width: 100%;
+}
+.single-testimonial-style1 .text-holder h3{
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 400;
+}
+
+.single-testimonial-style1 .text-holder .client-info {
+    position: relative;
+    display: block;
+    margin-top: 39px;
+    padding-top: 6px;
+    padding-left: 30px;
+    padding-bottom: 3px;
+    z-index: 1;
+}
+.single-testimonial-style1 .text-holder .client-info::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 70px;
+    background: #f3f3f4;
+    content: "";
+    z-index: -1;
+}
+.single-testimonial-style1 .text-holder .client-info h4 {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 4px;
+}
+.single-testimonial-style1 .text-holder .client-info span{
+    color: #777777;
+}
+.single-testimonial-style1 .img-holder{
+    position: relative;
+    display: block;
+    max-width: 200px;
+    width: 100%;
+}
+.single-testimonial-style1 .img-holder img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+.testimonial-style1_carousel.owl-nav-style-one.owl-theme .owl-nav {
+    position: absolute;
+    top: 50%;
+    left: -140px;
+    right: -140px;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+.testimonial-style1_carousel.owl-nav-style-one.owl-theme .owl-nav [class*="owl-"] {
+
+}
+.testimonial-style1_carousel.owl-nav-style-one.owl-theme .owl-nav .owl-prev {
+    float: left;
+}
+.testimonial-style1_carousel.owl-nav-style-one.owl-theme .owl-nav .owl-next {
+    float: right;
+}
+
+
+.testimonial-style1-content .inner-content .bg_white{
+    position: absolute;
+    top: 0;
+    left: -10000000px;
+    bottom: 0;
+    right: -10000000px;
+    background: #ffffff;    
+}
+
+
+
+
+
+/*** 
+=============================================
+    Testimonial Style2 Area Css
+=============================================
+***/
+.testimonial-style2-area {
+    position: relative;
+    display: block;
+    padding: 118px 0 420px;
+    z-index: 1;
+}
+.testimonial-style2-area .layer-outer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    z-index: -1;
+}
+.testimonial-style2-area .layer-outer::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #11161e;
+    opacity: 0.90;
+    z-index: -1;
+}
+
+.single-testimonial-style2{
+    position: relative;
+    display: block;
+    border: 2px solid rgba(255, 255, 255, 0.10);
+    padding: 80px 70px 68px;
+}
+.single-testimonial-style2 .quote-icon {
+    position: absolute;
+    top: -15px;
+    left: 30px;
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 100px;
+    display: inline-block;
+    transform: rotateX( 
+180deg
+ );
+}
+
+
+.single-testimonial-style2 h4{
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.single-testimonial-style2 .bottom-box {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wapr: wrap;
+    margin-top: 40px;
+    padding-top: 6px;
+    padding-left: 30px;
+    padding-bottom: 3px;
+    z-index: 1;
+}
+.single-testimonial-style2 .bottom-box::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 70px;
+    background: #ffffff;
+    content: "";
+    opacity: 0.10;
+    z-index: -1;
+}
+.single-testimonial-style2 .bottom-box .client-info h4 {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 4px;
+}
+.single-testimonial-style2 .bottom-box .client-info span{
+    color: #ffffff;
+}
+
+.single-testimonial-style2 .bottom-box .img-holder{
+    position: relative;
+    display: block;
+    max-width: 70px;
+}
+.single-testimonial-style2 .bottom-box .img-holder img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+.testimonial-style2_carousel.owl-nav-style-one.owl-theme .owl-nav {
+    position: absolute;
+    top: 50%;
+    left: -80px;
+    right: -80px;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+.testimonial-style2_carousel.owl-nav-style-one.owl-theme .owl-stage-outer {
+    padding-top: 45px;
+}
+.testimonial-style2_carousel.owl-nav-style-one.owl-theme .owl-nav [class*="owl-"] {
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    color: rgba(255, 255, 255, 0.30);
+}
+.testimonial-style2_carousel.owl-nav-style-one.owl-theme .owl-nav [class*="owl-"]:hover {
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    color: rgba(255, 255, 255, 0.70);
+}
+.testimonial-style2_carousel.owl-nav-style-one.owl-theme .owl-nav .owl-prev {
+    float: left;
+}
+.testimonial-style2_carousel.owl-nav-style-one.owl-theme .owl-nav .owl-next {
+    float: right;
+}
+
+
+
+
+/*** 
+=============================================
+    Testimonial Page One Css
+=============================================
+***/
+.testimonial-page-one{
+    position: relative;
+    display: block;
+    background: #f3f3f4;
+    padding: 120px 0 70px;
+}
+.single-testimonial-style3.style3instyle4 {
+    padding-top: 45px;
+    margin-bottom: 50px;
+}
+.single-testimonial-style3.style3instyle4 .inner{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 87px 30px 50px;
+}
+.single-testimonial-style3.style3instyle4 .quote-icon {
+    position: absolute;
+    top: -15px;
+    left: 30px;
+    font-size: 100px;
+    display: inline-block;
+    transform: rotateX(180deg);
+}

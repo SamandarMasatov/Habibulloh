@@ -1,0 +1,1814 @@
+
+@media only screen and (max-width: 5000px){
+.boxed_wrapper_box_page{
+    overflow-x: hidden;
+}
+ 
+
+}
+
+
+/* Large Layout: 1200px. */
+@media only screen and (min-width: 1200px){
+
+
+    
+}
+
+
+
+/* Medium screen  */ 
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+
+
+/*** Header Style One Css ***/  
+.header-top-left::before {
+    right: -50%;
+}
+.header-contact-info {
+    padding-left: 0px;
+}
+.header-contact-info .left {
+    position: relative;
+    left: 0;
+}
+.header-contact-info .right p a {
+    color: #ffffff;
+}
+.header-contact-info .right p a:hover{
+    color: #11161e;
+}
+.header-contact-info .right p span::before {
+    color: #ffffff;
+}
+.header-top-right .header-social-link-1 {
+    padding: 22px 0 23px;
+}
+
+
+/*** About Style1 Area Css ***/ 
+.about-style1-content-box {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.about-style1-content-box .text-holder {
+    max-width: 100%;
+    width: 100%;
+}
+.about-style1-content-box .inner-content ul {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.about-style1-content-box .img-holder {
+    margin: 0 auto;
+}
+
+
+/*** Project Style1 Area Css ***/ 
+.project-style1_top_box .sec-title {
+    padding-bottom: 17px;
+}
+.project-style1_top_box .sec-title h2 br{
+    display: none;
+}
+.project-style1_top_box .text_box {
+    max-width: 100%;
+}
+.single-project-style1 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 50px;
+}
+.project-style1_viewmore_button {
+    padding-top: 20px;
+}
+
+/*** Testimonial Style1 Area Css ***/ 
+.testimonial-style1-content .inner-content {
+    padding: 61px 70px 70px;
+}
+.single-testimonial-style1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.single-testimonial-style1 .text-holder {
+    max-width: 100%;
+    width: 100%;
+}
+.single-testimonial-style1 .img-holder {
+    margin-top: 23px;
+}
+.single-testimonial-style1 .text-holder .client-info {
+    margin-top: 35px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+
+/*** Footer Area Css ***/ 
+.single-footer-widget.marbtm{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/*** Header Style Two Css ***/  
+.header-bottom_style2_right .nav-outer .mobile-nav-toggler{
+    padding: 20px 0 20px;    
+}
+
+/*** About Style2 Area Css ***/ 
+.about-style2-content-box .text-holder {
+    max-width: 100%;
+    padding-top: 120px;
+}
+.about-style2-content-box .inner-content ul {
+    padding: 43px 50px 43px;
+    margin-top: 44px;
+    margin-bottom: 50px;
+    max-width: 400px;
+}
+.about-style2-content-box .img-box {
+    max-width: 750px;
+}
+
+/*** Features Area Css ***/ 
+.features-area {
+    padding-right: 0px;
+    min-height: auto;
+}
+.features_bg_image {
+    max-width: 100%;
+    width: 100%;
+    height: 575px;
+}
+.features-content-box {
+    max-width: 100%;
+    width: 100%;
+    padding: 627px 0px 0px;
+}
+
+/*** Service Style2 Area Css ***/ 
+.service-style2_top_box {
+    display: block;
+    padding-bottom: 61px;
+}
+.service-style2_top_box .sec-title h2 br{
+    display: none;
+}
+.service-style2_top_box .text_box {
+    max-width: 100%;
+    padding-top: 27px;
+}
+
+/*** About Style3 Area Css ***/ 
+.about-style3-area {
+    padding-top: 120px;
+}
+.about-style3-content-box {
+    padding-left: 0px;
+    margin: 0 0 60px;
+}
+.about-style3-img-box {
+    margin-left: 0px;
+}
+.about-style3-img-box .inner img {
+    max-width: 100%;
+    float: none;
+    width: 100%;
+}
+.about-style3-content-box .inner-content ul {
+    max-width: 430px;
+}
+
+/*** Subscribe Style2 Area Css ***/ 
+.home_map {
+    position: relative;
+    top: -300px;
+    left: 5%;
+    bottom: 0;
+}
+.subscribe-style2-area .subscribe-content-box {
+    margin: -300px auto 0;
+}
+
+/*** Faq Style1 Area Css ***/ 
+.faq-style1-image-box .inner img {
+    max-width: 100%;
+    width: 100%;
+    float: none;
+}
+.faq-style1-content {
+    margin-left: 0;
+    padding: 60px 0 120px;
+}
+
+
+/*** About Style4 Area Css ***/ 
+.about-style4-img-box {
+    float: none;
+}
+.about-style4-content-box {
+    margin: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 40px;
+}
+
+/*** About Style2 Area About Page Css ***/ 
+.about-style2-area.about-page .about-style2-content-box .text-holder{
+    padding-top: 0;    
+}
+
+/*** Features Style2 Area Css ***/ 
+.features-style2-area .features-content-box {
+    padding: 0px 0px 0px;
+    margin-bottom: 50px;
+}
+
+/*** Faq Style1 Area Css ***/ 
+.faq-style2-image-box {
+    max-width: 700px;
+}
+.faq-style1-content.pdb0{
+    padding-bottom: 0;
+}
+
+/*** Single Shop Area Css ***/ 
+.single-shop-content .content-box {
+    padding-left: 30px;
+}
+
+
+/*** Single Shop Area Css ***/ 
+.single-shop-content .content-box {
+    padding-left: 0px;
+    margin-top: 10px;
+}
+.single-shop-content .content-box .top .title-box h3 br{
+    display: none;
+}
+
+/*** ChecKout Area Css ***/ 
+.billing-info {
+    margin-top: 40px;
+}
+
+/*** login Register Area ***/ 
+.login-register-area .form.register {
+    position: relative;
+    display: block;
+    padding-top: 68px;
+}
+
+
+/*** Contact Info Area ***/ 
+.single-info-box .title {
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+
+}
+
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+
+/*** Header Style One Css ***/  
+.header-top-left::before {
+    right: -50%;
+}
+.header-contact-info {
+    padding-left: 0px;
+}
+.header-contact-info .left {
+    position: relative;
+    left: 0;
+}
+.header-contact-info .right p a {
+    color: #ffffff;
+}
+.header-contact-info .right p a:hover{
+    color: #11161e;
+}
+.header-contact-info .right p span::before {
+    color: #ffffff;
+}
+.header-top-right .header-social-link-1 {
+    padding: 22px 0 23px;
+}
+.header-contact-info2 ul li {
+    margin-right: 30px;
+}
+
+  
+/*** About Style1 Area Css ***/ 
+.about-style1-content-box {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.about-style1-content-box .text-holder {
+    max-width: 100%;
+    width: 100%;
+}
+.about-style1-content-box .inner-content ul {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.about-style1-content-box .img-holder {
+    margin: 0 auto;
+}
+
+
+/*** Project Style1 Area Css ***/ 
+.project-style1_top_box .sec-title {
+    padding-bottom: 17px;
+}
+.project-style1_top_box .sec-title h2 br{
+    display: none;
+}
+.project-style1_top_box .text_box {
+    max-width: 100%;
+}
+.single-project-style1 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 50px;
+}
+.project-style1_viewmore_button {
+    padding-top: 20px;
+}
+
+
+/*** Testimonial Style1 Area Css ***/ 
+.testimonial-style1-content .inner-content {
+    padding: 61px 70px 70px;
+}
+.single-testimonial-style1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.single-testimonial-style1 .text-holder {
+    max-width: 100%;
+    width: 100%;
+}
+.single-testimonial-style1 .img-holder {
+    margin-top: 23px;
+}
+.single-testimonial-style1 .text-holder .client-info {
+    margin-top: 35px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+   
+/*** Footer Area Css ***/ 
+.single-footer-widget.marbtm{
+    margin-bottom: 40px;
+}
+
+
+
+
+
+/*** Header Style Two Css ***/  
+.header-bottom_style2_right {
+    padding-left: 20px;
+}
+.header-bottom_style2 .outer-box {
+    padding: 30px 25px 30px;
+}
+.header-bottom_style2_right .nav-outer .mobile-nav-toggler{
+    padding: 20px 0 20px;    
+}
+.header-social-link-2 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*** About Style2 Area Css ***/ 
+.about-style2-content-box .text-holder {
+    max-width: 100%;
+    padding-top: 120px;
+}
+.about-style2-content-box .inner-content ul {
+    padding: 43px 50px 43px;
+    margin-top: 44px;
+    margin-bottom: 50px;
+    max-width: 400px;
+}
+.about-style2-content-box .img-box {
+    max-width: 750px;
+}
+
+/*** Features Area Css ***/ 
+.features-area {
+    padding-right: 0px;
+    min-height: auto;
+}
+.features_bg_image {
+    max-width: 100%;
+    width: 100%;
+    height: 575px;
+}
+.features-content-box {
+    max-width: 100%;
+    width: 100%;
+    padding: 627px 0px 0px;
+}
+
+
+
+
+
+/*** Header Style Three Css ***/ 
+.header-contact-info-two ul li {
+    margin-right: 20px;
+}
+
+/*** Service Style2 Area Css ***/ 
+.service-style2_top_box {
+    display: block;
+    padding-bottom: 61px;
+}
+.service-style2_top_box .sec-title h2 br{
+    display: none;
+}
+.service-style2_top_box .text_box {
+    max-width: 100%;
+    padding-top: 27px;
+}
+
+/*** About Style3 Area Css ***/ 
+.about-style3-area {
+    padding-top: 120px;
+}
+.about-style3-content-box {
+    padding-left: 0px;
+    margin: 0 0 60px;
+}
+.about-style3-img-box {
+    margin-left: 0px;
+}
+.about-style3-img-box .inner img {
+    max-width: 100%;
+    float: none;
+    width: 100%;
+}
+.about-style3-content-box .inner-content ul {
+    max-width: 430px;
+}
+
+
+/*** Subscribe Style2 Area Css ***/ 
+.home_map {
+    position: relative;
+    top: -300px;
+    left: 5%;
+    bottom: 0;
+}
+.subscribe-style2-area .subscribe-content-box {
+    margin: -300px auto 0;
+}
+
+/*** Faq Style1 Area Css ***/ 
+.faq-style1-image-box .inner img {
+    max-width: 100%;
+    width: 100%;
+    float: none;
+}
+.faq-style1-content {
+    margin-left: 0;
+    padding: 60px 0 120px;
+}
+
+/*** About Style4 Area Css ***/ 
+.about-style4-img-box {
+    float: none;
+}
+.about-style4-content-box {
+    margin: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 40px;
+}
+
+
+/*** About Style2 Area About Page Css ***/ 
+.about-style2-area.about-page .about-style2-content-box .text-holder{
+    padding-top: 0;    
+}
+
+/*** Features Style2 Area Css ***/ 
+.features-style2-area .features-content-box {
+    padding: 0px 0px 0px;
+    margin-bottom: 50px;
+}
+
+
+/*** Sidebar Css ***/ 
+.sidebar-content-box {
+    margin-top: 70px;
+}
+
+/*** Faq Style1 Area Css ***/ 
+.faq-style2-image-box {
+    max-width: 700px;
+}
+.faq-style1-content.pdb0{
+    padding-bottom: 0;
+}
+
+/*** Single Shop Area Css ***/ 
+.single-shop-content .content-box {
+    padding-left: 0px;
+    margin-top: 10px;
+}
+
+
+/*** ChecKout Area Css ***/ 
+.billing-info {
+    margin-top: 40px;
+}
+
+/*** login Register Area ***/ 
+.login-register-area .form.register {
+    position: relative;
+    display: block;
+    padding-top: 68px;
+}
+
+/*** Contact Style1 Area ***/ 
+.contact-style1_form {
+    padding-right: 0px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+ 
+    
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+
+/*** Header Style One Css ***/  
+.header-top {
+    display: none;
+}
+.header-left {
+    float: none;
+    text-align: center;
+}
+.header-right {
+    display: none;
+}
+.header-bottom_right .outer-search-box-style1{
+    display: none;    
+}
+.header-bottom_right__btn {
+    padding-left: 25px;
+}
+
+
+/*** About Style1 Area Css ***/ 
+.about-style1-content-box {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 70px 30px 70px;
+}
+.about-style1-content-box .text-holder {
+    max-width: 100%;
+    width: 100%;
+}
+.about-style1-content-box .inner-content ul {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 43px 30px 43px;
+}
+.about-style1-content-box .img-holder {
+    margin: 0 auto;
+}
+
+/*** Service Style1 Area Css ***/ 
+.single-service-style1 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.single-service-style1 .text-holder {
+    padding-left: 0px;
+    margin-top: 33px;
+}
+
+
+/*** Project Style1 Area Css ***/ 
+.project-style1_top_box .sec-title {
+    padding-bottom: 17px;
+}
+.project-style1_top_box .sec-title h2 br{
+    display: none;
+}
+.project-style1_top_box .text_box {
+    max-width: 100%;
+}
+.single-project-style1 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+.project-style1_viewmore_button {
+    padding-top: 20px;
+}
+
+
+/*** Testimonial Style1 Area Css ***/ 
+.testimonial-style1-content {
+    padding-top: 150px;
+}
+.testimonial-style1-content_bg {
+    height: 175px;
+    width: 320px;
+    background-size: contain;
+    margin: 0 auto;
+}
+.testimonial-style1-content .inner-content {
+    padding: 71px 30px 70px;
+}
+.testimonial-style1-content .quote-icon {
+    top: 40px;
+}
+.single-testimonial-style1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.single-testimonial-style1 .text-holder {
+    max-width: 100%;
+    width: 100%;
+}
+.single-testimonial-style1 .img-holder {
+    margin-top: 23px;
+}
+.single-testimonial-style1 .text-holder .client-info {
+    margin-top: 35px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+.single-testimonial-style1 .text-holder h3 {
+    font-size: 22px;
+    line-height: 34px;
+}
+
+
+/*** Subscribe Area Css ***/ 
+.subscribe-content-box {
+    padding: 120px 20px 0px;
+}
+.subscribe-content-box .phone_number {
+    margin-top: 43px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 28px;
+}
+.subscribe-content-box .phone_number .inner_text {
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 16px;
+}
+.subscribe-box {
+    max-width: 370px;
+}
+
+
+/*** Footer Area Css ***/ 
+.single-footer-widget.marbtm{
+    margin-bottom: 40px;
+}
+.single-footer-widget.pdtop{
+    padding-top: 40px;
+}
+
+
+
+
+
+/*** Header Style Two Css ***/ 
+.header-bottom_style2 .container-box {
+    padding: 0 5px;
+} 
+.header-bottom_style2_right {
+    padding-left: 0px;
+}
+.header-bottom_style2 .outer-box {
+    padding: 30px 15px 30px;
+}
+.header-bottom_style2_right .nav-outer .mobile-nav-toggler{
+    padding: 20px 0 20px;    
+}
+.header-social-link-2 {
+    display: none;
+}
+.header-bottom_style2_right .header-bottom_style2_right__btn{
+    display: none;
+}
+
+
+/*** About Style2 Area Css ***/ 
+.about-style2-content-box .text-holder {
+    max-width: 100%;
+    padding-top: 120px;
+    text-align: center;
+}
+.about-style2-content-box .inner-content ul {
+    padding: 43px 50px 43px;
+    max-width: 400px;
+    margin: 44px auto 50px;
+}
+.about-style2-content-box .img-box {
+    max-width: 750px;
+}
+.about-style2-content-box .img-box .main_image {
+    padding-top: 0;
+}
+.about-style2-content-box .img-box .main_image .inner {
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+}
+.about-style2-content-box .img-box .main_image .image_2 {
+    position: relative;
+    right: 0;
+    text-align: center;
+}
+.about-style2-content-box .img-box .main_image .image_3 {
+    position: relative;
+    top: 0px;
+    left: 0;
+    right: 0px;
+    text-align: center;
+}
+.about-style2-content-box .img-box .main_image .image_4 {
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    right: 0;
+    text-align: center;
+}
+.about-style2-content-box .img-box .main_image .image_5 {
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    right: 0;
+    text-align: center;
+}
+
+
+/*** Features Area Css ***/ 
+.features-area {
+    padding-right: 0px;
+    min-height: auto;
+}
+.features_bg_image {
+    max-width: 100%;
+    width: 100%;
+    height: 475px;
+}
+.features-content-box {
+    max-width: 100%;
+    width: 100%;
+    padding: 527px 0px 0px;
+}
+
+
+
+
+/*** Header Style Three Css ***/ 
+.header-top-style3 {
+    display: none;
+}
+
+/*** Service Style2 Area Css ***/ 
+.service-style2_top_box {
+    display: block;
+    padding-bottom: 61px;
+}
+.service-style2_top_box .sec-title h2 br{
+    display: none;
+}
+.service-style2_top_box .text_box {
+    max-width: 100%;
+    padding-top: 27px;
+}
+
+/*** About Style3 Area Css ***/ 
+.about-style3-area {
+    padding-top: 120px;
+    text-align: center;
+}
+.about-style3-content-box {
+    padding-left: 0px;
+    margin: 0 0 60px;
+}
+.about-style3-img-box {
+    margin-left: 0px;
+}
+.about-style3-img-box .inner img {
+    max-width: 100%;
+    float: none;
+    width: 100%;
+}
+.about-style3-content-box .inner-content ul {
+    padding: 43px 30px 43px;
+    max-width: 430px;
+    margin: 0 auto;
+}
+
+/*  Testimonial Style2 Area Css */
+.single-testimonial-style2 {
+    padding: 80px 20px 68px;
+}
+
+
+/*** Subscribe Style2 Area Css ***/ 
+.home_map {
+    position: relative;
+    top: -300px;
+    left: 5%;
+    bottom: 0;
+}
+.subscribe-style2-area .subscribe-content-box {
+    margin: -300px auto 0;
+    padding: 120px 20px 0px;
+}
+
+
+/*** Faq Style1 Area Css ***/ 
+.faq-style1-image-box .inner img {
+    max-width: 100%;
+    width: 100%;
+    float: none;
+}
+.faq-style1-content {
+    margin-left: 0;
+    padding: 60px 0 120px;
+}
+
+/*** Header Style Four Css ***/ 
+.header-bottom-style4 .outer-box {
+    padding-left: 20px;
+}
+
+/*** About Style4 Area Css ***/ 
+.about-style4-img-box {
+    float: none;
+}
+.about-style4-content-box {
+    margin: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 40px;
+}
+
+/*** Video Gallery Area Css ***/ 
+.video-holder-box h2 {
+    font-size: 40px;
+    line-height: 52px;
+    margin: 48px 0 0;
+}
+
+
+/*** Breadcrumb Area Css ***/ 
+.breadcrumb-area {
+    padding: 140px 0 145px;
+}
+.breadcrumb-area .inner-content {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.breadcrumb-area .title {
+    margin-bottom: 15px;
+}
+.breadcrumb-area .title h2 {
+    font-size: 40px;
+}
+
+/*** About Style2 Area About Page Css ***/ 
+.about-style2-area.about-page .about-style2-content-box .text-holder{
+    padding-top: 0;    
+}
+
+/*** Features Style2 Area Css ***/ 
+.features-style2-area .features-content-box {
+    padding: 0px 0px 0px;
+    margin-bottom: 50px;
+}
+
+/*** Service Details Area Css ***/ 
+.service-details-single-image {
+    margin-bottom: 20px;
+}
+.service-details-content {
+    padding-top: 25px;
+}
+.service-details-content .top {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.service-details-content .top .title_holder {
+    margin-bottom: 24px;
+}
+
+/*** Sidebar Css ***/ 
+.sidebar-content-box {
+    margin-top: 70px;
+}
+.single-review-box {
+    padding-left: 0px;
+}
+.single-review-box .img_box {
+    position: relative;
+    margin-bottom: 24px;
+}
+.single-review-box .text_box {
+    padding-left: 0px;
+}
+.single-review-box .text_box::before {
+    display: none;
+}
+.single-review-box .text_box .inner {
+    padding: 27px 30px 23px;
+}
+.single-review-box.marginleft100 {
+    margin-left: 30px;
+}
+
+
+/*** Faq Style1 Area Css ***/ 
+.faq-style2-image-box {
+    max-width: 700px;
+}
+.faq-style1-content.pdb0{
+    padding-bottom: 0;
+}
+
+/*** Error Page Area Css ***/ 
+.error-content .title {
+    font-size: 160px;
+    font-weight: 700;
+    margin: 15px 0 22px;
+}
+
+/*** Main Shop Area Css ***/ 
+.view-as-box {
+    display: block;
+    float: none;
+    width: 200px;
+    margin: 0 auto;
+}
+.shorting-box {
+    display: block;
+    float: none;
+    width: 200px;
+    margin: 15px auto 15px;
+}
+.showing-box {
+    display: block;
+    float: none;
+    width: 200px;
+    margin: 0 auto 15px;
+}
+.shop-pagination-box {
+    display: block;
+    float: none;
+    width: 200px;
+    margin: 0 auto;
+}
+
+/*** Single Shop Area Css ***/ 
+.single-shop-content .content-box {
+    padding-left: 0px;
+    margin-top: 10px;
+}
+.single-shop-content .content-box .top .title-box h3 br{
+    display: none;
+}
+.single-shop-content .content-box .top .price-box {
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.single-shop-content .content-box .top .price-box .right {
+    margin-top: 3px;
+    padding-left: 0px;
+}
+.single-product-image-holder .slider-pager {
+    max-width: 257px;
+    margin: 20px auto 0;
+}
+
+.review-box-holder .single-review-box {
+    padding-left: 0px;
+}
+.review-box-holder .single-review-box .image-holder {
+    position: relative;
+    width: 70px;
+}
+.review-box-holder .single-review-box .text-holder {
+    padding-left: 0px;
+    margin-top: 18px;
+}
+.review-box-holder .single-review-outer-box {
+    padding: 34px 24px 32px;
+}
+
+.product-tab-box {
+    padding: 50px 30px 50px;
+}
+
+/*** Cart Area Css ***/ 
+.cart-button .button-left {
+    position: relative;
+    display: block;
+    float: none;
+    text-align: center;
+}
+.cart-button .button-right{
+    position: relative;
+    display: block;
+    float: none;
+    text-align: center;    
+}
+
+
+/*** ChecKout Area Css ***/ 
+.buyer-info .top {
+    padding: 21px 29px 20px;
+}
+.billing-info {
+    margin-top: 40px;
+}
+.buyer-info .form-box {
+    padding: 50px 30px 30px;
+}
+.billing-info .top {
+    padding: 21px 29px 20px;
+}
+.billing-info .inner-box {
+    padding: 46px 30px 45px;
+}
+.billing-info .inner-box ul li span {
+    padding-left: 20px;
+}
+
+.payment-info .top {
+    padding: 21px 29px 20px;
+}
+.payment-info .inner-box {
+    padding: 24px 29px 30px;
+}
+
+
+/*** login Register Area ***/ 
+.login-register-area .form.register {
+    position: relative;
+    display: block;
+    padding-top: 68px;
+}
+.login-register-area .form .right {
+    text-align: left;
+    margin-top: 11px;
+}
+
+
+/* Breadcrumb Style2 Area Css */
+.breadcrumb-style2-area {
+    padding-bottom: 445px;
+}
+
+/*** Contact Style1 Area ***/ 
+.contact-style1_form {
+    padding-right: 0px;
+    margin-bottom: 40px;
+}
+.single-info-box {
+    display: block;
+    padding-right: 0px;
+    margin-bottom: 51px;
+}
+.single-info-box .title {
+    width: 100%;
+    margin-bottom: 9px;
+}
+.contact-style1_form .title p br{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+   
+    
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px){
+    
+.main-menu .navigation > li > ul,
+.main-menu .navigation > li > ul > li > ul,
+.main-menu .navigation > li .megamenu {
+    display:block !important;
+    visibility:hidden;
+    opacity:0;
+}
+    
+    
+    
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 1199px) { 
+
+
+
+      
+
+.main-header .main-menu {
+    position: relative;
+    display: block;
+    width: 100%;
+    float: none;
+}   
+.main-header .nav-outer .main-menu,
+.sticky-header{
+    display: none !important;
+}
+.nav-outer .mobile-nav-toggler{
+    display: block;
+}
+.mobile-nav-toggler .icon-bar {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    height: 2px;
+    width: 30px;
+    margin: 7px 5px;
+} 
+    
+  
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1800px) {  
+
+/*** Header Style One Css ***/  
+.header-top-left::before {
+    right: -50%;
+}
+.header-contact-info {
+    padding-left: 0px;
+}
+.header-contact-info .left {
+    position: relative;
+    left: 0;
+}
+.header-contact-info .right p a {
+    color: #ffffff;
+}
+.header-contact-info .right p a:hover{
+    color: #11161e;
+}
+.header-contact-info .right p span::before {
+    color: #ffffff;
+}
+.header-top-right .header-social-link-1 {
+    padding: 22px 0 23px;
+}
+
+/*** Header Style Two Css ***/  
+.header-bottom_style2 .outer-box {
+    padding: 30px 25px 30px;
+}
+.header-bottom_style2_right {
+    padding-left: 20px;
+}
+.header-bottom_style2_right .main-menu .navigation> li{
+    margin-right: 20px;    
+}
+.header-bottom_style2_right .main-menu .navigation> li:last-child{
+    margin-right: 0px;    
+}
+.header-social-link-2 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header-bottom_style2_right__btn a {
+    padding: 0 15px;
+}
+
+
+/*** Features Area Css ***/  
+.features_bg_image {
+    max-width: 620px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1390px) { 
+ 
+/*** Main Slider Css ***/     
+.main-slider .auto-container {
+    padding: 0px 120px;
+} 
+
+/*** Main Slider Style2 Css ***/  
+.main-slider.style2 .auto-container {
+    padding: 0px 15px;
+}
+
+/*** Main Slider Style4 Css ***/ 
+.main-slider.style4 .layer-outer-image1 img {
+    opacity: 0.50;
+} 
+.main-slider.style4 .layer-outer-image2 img {
+    opacity: 0.50;
+}
+.main-slider.style4 .layer-outer-image3 img {
+    opacity: 0.50;
+    width: 80%;
+}
+.main-slider.style4 .content .big-title h2 {
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+    
+    
+    
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+
+/*** Main Slider Css ***/     
+.main-slider .auto-container {
+    padding: 0px 120px;
+}
+
+/*** Main Slider Style2 Css ***/  
+.main-slider.style2 .auto-container {
+    padding: 0px 15px;
+}
+
+/*** Main Slider Style3 Css ***/  
+.main-slider.style3 .layer-outer-image1 img {
+    width: 90%;
+}
+
+/*** Main Slider Style4 Css ***/ 
+.main-slider.style4 .layer-outer-image1 {
+    display: none;
+} 
+.main-slider.style4 .layer-outer-image2 img {
+    opacity: 0.50;
+}
+.main-slider.style4 .layer-outer-image3 {
+    display: none;
+}
+.main-slider.style4 .content .big-title h2 {
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+ 
+
+    
+    
+    
+
+  
+    
+    
+    
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    
+/*** Main Slider Css ***/ 
+.main-slider .auto-container {
+    padding: 0px 120px;
+}
+
+.main-slider.style1 .slide {
+    padding: 109px 0px 480px;
+}
+.main-slider.style1 .content .big-title h2 {
+    font-size: 40px;
+}
+.main-slider.style1 .content .btns-box {
+    padding-top: 39px;
+}
+
+/*** Main Slider Style2 Css ***/  
+.main-slider.style2 .auto-container {
+    padding: 0px 15px;
+}
+.main-slider.style2 .content .big-title h2 {
+    font-size: 45px;
+}
+.main-slider.style2 .content h3 {
+    margin-top: 23px;
+}
+.main-slider.style2 .content .btns-box {
+    padding-top: 45px;
+}
+
+/*** Main Slider Style3 Css ***/  
+.main-slider.style3 .layer-outer-image1 {
+    display: none;
+}
+.main-slider.style3 .content .big-title h2 {
+    font-size: 55px;
+}
+
+
+/*** Main Slider Style4 Css ***/ 
+.main-slider.style4 .slide {
+    padding: 195px 0px 200px;
+}
+.main-slider.style4 .layer-outer-image1 {
+    display: none;
+} 
+.main-slider.style4 .layer-outer-image2 img {
+    opacity: 0.50;
+}
+.main-slider.style4 .layer-outer-image3 {
+    display: none;
+}
+.main-slider.style4 .content .big-title h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+.main-slider.style4 .content h3 {
+    margin-top: 23px;
+}
+
+
+
+
+
+
+
+
+    
+
+    
+}
+
+
+
+
+
+@media only screen and (min-width: 500px) and (max-width: 767px) { 
+    
+/*** Main Slider Css ***/  
+.main-slider .owl-theme .owl-nav {
+    display: none;
+}  
+.main-slider .auto-container {
+    padding: 0px 50px;
+    padding-right: 50px;
+} 
+.main-slider.style1 .auto-container {
+    padding: 0px 30px;
+    padding-right: 30px;
+} 
+.main-slider.style1 .slide {
+    padding: 112px 0px 480px;
+}
+.main-slider .content .big-title h2 {
+    font-size: 30px;
+}
+.main-slider .content .big-title h2 br{
+    display: none;
+}
+.main-slider .content .btns-box {
+    flex-direction: column;
+}
+.main-slider.style1 .content .btns-box {
+    padding-top: 42px;
+}
+.main-slider .content .btns-box .left {
+    margin-right: 0px;
+}
+.main-slider .content .btns-box .right {
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+    
+/*** Main Slider Style2 Css ***/ 
+.main-slider.style2 .slide {
+    padding: 310px 0px 150px;
+} 
+.main-slider.style2 .auto-container {
+    padding: 0px 15px;
+    text-align: center;
+}
+.main-slider.style2 .content .big-title h2 {
+    font-size: 45px;
+}
+.main-slider.style2 .content h3 {
+    margin-top: 23px;
+}
+.main-slider.style2 .content .btns-box {
+    padding-top: 45px;
+}
+
+/*** Main Slider Style3 Css ***/ 
+.main-slider.style3 .slide {
+    padding: 146px 0px 150px;
+} 
+.main-slider.style3 .layer-outer-image1 {
+    display: none;
+}
+.main-slider.style3 .content{
+    text-align: center;
+}
+.main-slider.style3 .content .big-title h2 {
+    font-size: 45px;
+}
+.main-slider.style3 .content h3 {
+    margin-top: 23px;
+}
+
+
+/*** Main Slider Style4 Css ***/ 
+.main-slider.style4 .slide {
+    padding: 145px 0px 150px;
+}
+.main-slider.style4 .layer-outer-image1 {
+    display: none;
+} 
+.main-slider.style4 .layer-outer-image2 img {
+    opacity: 0.50;
+}
+.main-slider.style4 .layer-outer-image3 {
+    display: none;
+}
+.main-slider.style4 .content{
+    text-align: center;
+}
+.main-slider.style4 .content .big-title h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+.main-slider.style4 .content h3 {
+    margin-top: 23px;
+}
+.main-slider.style4 .content .btns-box {
+    padding-top: 45px;
+}
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+    
+
+    
+    
+}
+
+
+
+@media only screen and (max-width: 499px) {
+    
+/*** Main Slider Css ***/ 
+.main-slider .auto-container {
+    padding: 0px 30px;
+}  
+.main-slider.style1 .auto-container {
+    padding: 0px 30px;
+    padding-right: 30px;
+} 
+.main-slider .owl-theme .owl-nav {
+    display: none;
+}
+
+.main-slider.style1 .slide {
+    padding: 112px 0px 480px;
+}
+.main-slider .content .big-title h2 {
+    font-size: 30px;
+}
+.main-slider .content .big-title h2 br{
+    display: none;
+}
+.main-slider .content .btns-box {
+    flex-direction: column;
+}
+.main-slider.style1 .content .btns-box {
+    padding-top: 42px;
+}
+.main-slider .content .btns-box .left {
+    margin-right: 0px;
+}
+.main-slider .content .btns-box .right {
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+      
+/*** Main Slider Style2 Css ***/ 
+.main-slider.style2 .slide {
+    padding: 310px 0px 150px;
+} 
+.main-slider.style2 .auto-container {
+    padding: 0px 15px;
+    text-align: center;
+}
+.main-slider.style2 .content .big-title h2 {
+    font-size: 30px;
+}
+.main-slider.style2 .content h3 {
+    margin-top: 23px;
+}
+.main-slider.style2 .content .btns-box {
+    padding-top: 45px;
+}
+
+
+/*** Main Slider Style3 Css ***/ 
+.main-slider.style3 .slide {
+    padding: 146px 0px 150px;
+} 
+.main-slider.style3 .layer-outer-image1 {
+    display: none;
+}
+.main-slider.style3 .content{
+    text-align: center;
+}
+.main-slider.style3 .content .big-title h2 {
+    font-size: 35px;
+}
+.main-slider.style3 .content h3 {
+    margin-top: 23px;
+}
+
+
+/*** Main Slider Style4 Css ***/ 
+.main-slider.style4 .slide {
+    padding: 145px 0px 150px;
+}
+.main-slider.style4 .layer-outer-image1 {
+    display: none;
+} 
+.main-slider.style4 .layer-outer-image2 img {
+    opacity: 0.50;
+}
+.main-slider.style4 .layer-outer-image3 {
+    display: none;
+}
+.main-slider.style4 .content{
+    text-align: center;
+}
+.main-slider.style4 .content .big-title h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+.main-slider.style4 .content h3 {
+    margin-top: 23px;
+}
+.main-slider.style4 .content .btns-box {
+    padding-top: 45px;
+}
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+    
+  
+
+
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1199px) {
+    .order-2 {
+        -ms-flex-order: 2;
+        order: 2;
+    }
+    .order-1 {
+        -ms-flex-order: 1;
+        order: 1;
+    }  
+    
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.order-box-2 {
+    -ms-flex-order: 2;
+    order: 2;
+}
+.order-box-1 {
+    -ms-flex-order: 1;
+    order: 1;
+}  
+
+}
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 767px) { 
+.order-box-2 {
+    -ms-flex-order: 2;
+    order: 2;
+}
+.order-box-1 {
+    -ms-flex-order: 1;
+    order: 1;
+} 
+
+}
+
+
+
+

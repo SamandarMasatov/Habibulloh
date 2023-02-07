@@ -1,0 +1,179 @@
+
+
+/*** 
+=============================================
+  Team Style1 Area Css
+=============================================
+***/
+.team-style1-area{
+    position: relative;
+    display: block;
+    background: #f3f3f4;
+    padding: 120px 0 77px;
+    z-index: 1;
+}
+.team-style1-area .sec-title .sub-title p {
+    margin: 0 0 8px;
+}
+
+.single-team-item{
+    position:relative;
+    display: block;
+    margin-bottom: 40px;
+}
+.single-team-item .img-holder{
+    position:relative;
+    display: block;
+    padding-right: 40px;
+}
+.single-team-item .img-holder .inner {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.single-team-item .img-holder .inner:after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: #ffffff;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    opacity: 1.0;
+    transform-origin: bottom;
+    transform-style: preserve-3d;
+    transform: skewY(
+45deg
+);
+    z-index: 1;
+    top: 119%;
+}
+.single-team-item:hover .img-holder .inner:after{
+    top: 0;
+    opacity: 0.80;
+    transform: scaleY(1.0);    
+}
+.single-team-item .img-holder img{
+    width: 100%;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-team-item:hover .img-holder img {
+    filter: grayscale(1);
+    transform: scale(1.2);
+    transition: all 0.5s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+}
+
+
+.single-team-item .img-holder .overlay-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 40px;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    -webkit-transition: .9s;
+    -o-transition: .9s;
+    transition: .9s;
+    transform: perspective(400px) scaleY(0);
+    transform-origin: bottom;
+}
+.single-team-item:hover .img-holder .overlay-icon{
+    transform: perspective(400px) scaleY(1.0);    
+}
+.single-team-item .img-holder .overlay-icon a{
+    position: relative;
+    display: inline-block;
+}
+.single-team-item .img-holder .overlay-icon span{
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+
+.single-team-item .social-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 40px;
+    z-index: 3;
+}
+.single-team-item .social-icon ul {
+    position: relative;
+    display: block;
+    height: 100%;
+    background: #ffffff;
+}
+.single-team-item .social-icon ul li {
+    position: relative;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.single-team-item .social-icon ul li a{
+    position: relative;
+    display: block;
+    color: #c6c6c7;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;    
+}
+.single-team-item .social-icon ul li a:hover{
+    color: #000;
+}
+
+.single-team-item .title-holder {
+    position: relative;
+    display: block;
+    padding: 22px 0px 0;
+}
+.single-team-item .title-holder h3 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.single-team-item .title-holder h3 a{
+    color: #11161e;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-team-item .title-holder p {
+    color: #777777;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+
+
+/*** 
+=============================================
+  Team Page Css
+=============================================
+***/
+.team-page-one {
+    padding: 120px 0 70px;
+}
+.team-page-one .single-team-item{
+    margin-bottom: 47px;
+}
+

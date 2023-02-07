@@ -1,0 +1,358 @@
+
+/*** 
+=============================================
+    Service style1 Area Css
+=============================================
+***/
+.service-style1-area{
+    position: relative;
+    display: block;
+    background: #f3f3f4;
+    padding: 118px 0 50px;
+    z-index: 1;
+}
+
+.single-service-style1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 63px;
+}
+.single-service-style1 .icon-holder {
+    position: relative;
+    display: block;
+    width: 50px;
+}
+.single-service-style1 .icon-holder .inner{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    color: #777777;
+    font-size: 50px;
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;  
+}
+.single-service-style1:hover .icon-holder .inner{
+    transform: perspective(400px) rotateY(360deg);
+}
+
+
+.single-service-style1:hover .img-holder img{
+    transform: scale(1.2);    
+}
+.single-service-style1 .img-holder::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    z-index: 10;
+}
+.single-service-style1:hover .img-holder::before {
+    -webkit-animation: circle .75s;
+    animation: circle .75s;
+}
+
+
+
+.single-service-style1 .text-holder {
+    position: relative;
+    display: block;
+    padding-left: 20px;
+}
+.single-service-style1 .text-holder h3 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    margin: 0 0 9px;
+}
+.single-service-style1 .text-holder h3 a{
+    color: #11161e;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-service-style1 .text-holder p{
+    margin: 0;   
+}
+
+
+
+
+
+/*** 
+=============================================
+    Service style2 Area Css
+=============================================
+***/
+.service-style2-area{
+    position: relative;
+    display: block;
+    background: #f3f3f4;
+    padding: 120px 0 80px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.service-style2-area.bg_white{
+    background: #ffffff;
+}
+.service-style2-area .shape1 {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0.10;
+}
+
+
+.service-style2_top_box {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding-bottom: 61px;
+}
+.service-style2_top_box .sec-title{
+    position: relative;
+    display: block;
+    padding: 0;
+}
+.service-style2_top_box .sec-title h2{
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.service-style2_top_box .sec-title h2 span{
+    font-weight: 800;
+}
+
+
+.service-style2_top_box .text_box{
+    position: relative;
+    display: block;
+    max-width: 470px;
+    width: 100%;
+    top: -2px;
+}
+.service-style2_top_box .text_box .top{
+    margin: 0 0 17px;
+}
+.service-style2_top_box .text_box .top p{
+    font-weight: 700;
+    margin: 0;
+}
+.service-style2_top_box .text_box .bottom{
+    position: relative;
+    display: block;
+}
+.service-style2_top_box .text_box .bottom p{
+    margin: 0;
+}
+
+
+
+
+
+.single-service-style2{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 50px 30px 43px;
+    margin-bottom: 40px;
+    transition: all 0.5s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+    z-index: 1;
+}
+.single-service-style2:hover{
+    box-shadow: 0px 15px 27px 3px rgba(231, 73, 1, 0.35);
+}
+.single-service-style2:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    opacity: 0.40;
+    transition: .5s;
+    transform: perspective(400px) scaleX(0);
+    -webkit-transform-origin: bottom;
+    -ms-transform-origin: bottom;
+    transform-origin: bottom;
+    z-index: -1;
+}
+.single-service-style2:hover:before {
+    opacity: 1.0;
+    transform: perspective(400px) scaleX(1.0);
+}
+
+
+
+
+.single-service-style2 .icon-holder{
+    position: relative;
+    display: block;
+    padding-bottom: 27px;
+}
+.single-service-style2 .icon-holder span:before{
+    color: #777777;
+    font-size: 50px;
+    line-height: 50px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-service-style2:hover .icon-holder span:before{
+    color: #ffffff;
+}
+.single-service-style2 .text-holder{
+    position: relative;
+    display: block;
+}
+.single-service-style2 .text-holder h3{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    margin: 0 0 8px;
+}
+.single-service-style2 .text-holder h3 a{
+    color: #11161e;
+    transition: all 500ms linear;
+    transition-delay: 0.1s;
+}
+.single-service-style2:hover .text-holder h3 a{
+    color: #ffffff;
+}
+
+.single-service-style2 .text-holder p{
+    margin: 0;
+    transition: all 900ms linear;
+    transition-delay: 0.1s;
+}
+.single-service-style2:hover .text-holder p{
+    color: #ffffff;
+}
+
+
+
+/*** 
+=============================================
+    Service Page Css      
+=============================================
+***/
+.about-style1-area.pdb120{
+    padding-bottom: 120px;
+}
+.about-style1-content-box.margin0 {
+    margin-top: 0px;
+}
+
+
+
+
+
+/*** 
+=============================================
+    Service Details Area Style      
+=============================================
+***/
+.service-details-area{
+    position: relative;
+    display: block;
+    background: #f3f3f4;
+    padding: 120px 0 100px;
+}
+
+.service-details-single-image {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.service-details-single-image img{
+    width: 100%;
+}
+
+.service-details-content{
+    position: relative;
+    display: block;
+    padding-top: 45px;
+}
+.service-details-content .top {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.service-details-content .top .title_holder {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.service-details-content .top .title_holder .icon{
+    width: 80px;
+}
+.service-details-content .top .title_holder .icon span::before{
+    font-size: 50px;
+    line-height: 50px;
+}
+.service-details-content .top .title_holder .title{
+    position: relative;
+    display: block;
+}
+.service-details-content .top .title_holder .title h4{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.service-details-content .top .social_link{
+    position: relative;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

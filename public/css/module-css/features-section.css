@@ -1,0 +1,85 @@
+
+
+/*** 
+=============================================
+    Features Area Style      
+=============================================
+***/
+.features-area{
+    position: relative;
+    display: block;
+    background: #f3f3f4;
+    padding-right: 70px;
+    min-height: 575px;
+}
+.features-area .container-fullwidth{
+    position: relative;
+    display: block;
+}
+
+.features-content-box {
+    position: relative;
+    display: block;
+    max-width: 470px;
+    width: 100%;
+    padding: 47px 0px 48px;
+}
+.features-content-box .title{
+    position: relative;
+    display: block;
+    padding-bottom: 33px;
+}
+.features-content-box .title h2{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.features-content-box p{
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.features-content-box ul{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding-top: 21px;
+}
+.features-content-box ul li{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 21px;
+}
+.features-content-box ul li:last-child{
+    margin-bottom: 0;
+}
+.features-content-box ul li span::before {
+    position: relative;
+    display: inline-block;
+    padding-right: 17px;
+    font-size: 18px;
+    top: 2px;
+}
+.features-content-box .button{
+    position: relative;
+    display: block;
+    padding-top: 61px;
+}
+
+
+.features_bg_image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 875px;
+    width: 100%;
+    height: 575px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}

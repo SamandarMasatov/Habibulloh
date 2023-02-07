@@ -1,0 +1,163 @@
+
+
+/*** 
+=====================================================
+	Theme Main Color Css
+=====================================================
+***/
+.main-menu .navigation>li:hover>a,
+.main-menu .navigation>li.current>a,
+.main-menu .navigation>li>ul>li>a:hover,
+.main-menu .navigation> li> ul> li:hover> a,
+.main-menu .navigation> li> ul> li> ul> li> a:hover,
+.main-menu .navigation> li> .megamenu li:hover a,
+.main-menu .navigation> li> ul> li.dropdown> a:after,
+.mobile-menu .navigation li.current > a,
+.mobile-menu .navigation li > a:hover,
+.outer-search-box-style1 .seach-toggle:hover,
+.outer-search-box-style1 .seach-toggle.active,
+.sticky-header .main-menu .navigation>li:hover>a,
+.sticky-header .main-menu .navigation>li.current>a,
+.clr1,
+.sec-title .sub-title h5,
+.single-service-style1:hover .icon-holder .inner,
+.subscribe-content-box .subscribe-title p,
+.subscribe-box p span,
+.single-blog-style1 .text-holder .blog-title a:hover,
+.main-menu.style2 .navigation>li:hover>a, 
+.main-menu.style2 .navigation>li.current>a,
+.header-social-link-2 ul li a:hover,
+.header-contact-info-two ul li a:hover,
+.main-slider.style3 .slide .sub-title h4,
+.accordion-box .accordion .accord-btn.active h4,
+.main-slider.style4 .slide .sub-title h4,
+.breadcrumb-menu ul li:hover a,
+.breadcrumb-menu ul li.active,
+.service-details-content .top .social_link .social-links-style1 li a:hover i,
+.sidebar-search-box .search-form button,
+.single-review-box .text_box .inner .meta_box ul li a:hover,
+.review-form-box .review-box p span,
+.testimonial-style3-content .inner-content .quote-icon,
+.single-testimonial-style3.style3instyle4 .quote-icon,
+.view-as-box .icon ul li a:hover,
+.payment-tab .tab-btns li:hover i,
+.payment-tab .tab-btns li.active-btn i,
+.sidebar-categories-box li a:hover,
+.single-info-box .text .social-links-style1 li a:hover i,
+.contact-style1_form .title p span,
+.header-contact-info .right p a:hover
+
+{
+    color: #e74901;
+}
+
+
+
+
+
+
+
+
+
+
+/*** 
+=====================================================
+	Theme Main Background Color Css
+=====================================================
+***/
+.bgclr1,
+.main-menu .navigation> li> ul> li> a:before,
+.main-menu .navigation> li> ul> li> ul> li a:before,
+.main-menu .navigation> li> .megamenu li> a:before,
+.nav-outer .mobile-nav-toggler .inner,
+.thm-social-link1 ul li a:before,
+.btn-one,
+.header-top-left::before,
+.header-social-link-1 .social-link ul li a:before,
+.header-bottom_right__btn::before,
+.btn-one.style2,
+.btn-one:before,
+.btn-one .txt i.arrow1::after,
+.single-project-style1 .title-holder,
+.single-team-item:hover .img-holder .inner:after,
+.single-partner-logo-box:before,
+.header-bottom_style2_right__btn a,
+.main-slider.style2 .slide .image-layer:before,
+.single-gallery-item .img-holder:before,
+.single-gallery-item .img-holder:after,
+.header-bottom_right__btn_style2 a,
+.single-service-style2:before,
+.subscribe-style2-area .subscribe-content-box,
+.header-bottom_right__btn_style2.style2instyle3 a,
+.sidebar-author-box,
+.single-review-box:hover .img_box .inner:after,
+.sidebar-categories-box li a::after,
+.single-product-item .img-holder .overlay-content a,
+.single-product-item .title-holder .right a::before,
+.single-product-image-holder .slider-pager .thumb-box li .img-holder:before,
+.addto-cart-box .menu-box ul li a:hover,
+.product-tab-box .tab-btns .tab-btn.active-btn span, 
+.product-tab-box .tab-btns .tab-btn:hover span,
+.styled-pagination li:hover a,
+.styled-pagination li.active a,
+.breadcrumb-menu ul li i.arrow1::after
+ 
+{
+    background: #e74901;
+}
+
+
+
+
+
+
+
+
+
+
+/*** 
+=====================================================
+	Theme Main Border Color Css
+=====================================================
+***/
+.mobile-menu .navigation li > a:before {
+    border-left: 5px solid #e74901;
+}
+
+
+.main-slider .owl-theme .owl-nav .owl-prev:hover,
+.main-slider .owl-theme .owl-nav .owl-next:hover,
+.styled-pagination li:hover a,
+.styled-pagination li.active a
+
+
+{
+    border-color: #e74901;
+}
+
+
+
+
+
+
+.header-style-four {
+    border-top: 3px solid #e74901;
+}
+.about-style1-content-box .inner-content ul li {
+    color: #f6a47e;
+}
+.about-style2-content-box .inner-content ul li {
+    color: #f6a47e;
+}
+.about-style3-content-box .inner-content ul li {
+    color: #f6a47e;
+}
+.subscribe-content-box.style2 .phone_number .icon {
+    background: #f3530a;
+}
+.sidebar-categories-box li a::after {
+    border: 1px solid #e74901;
+}
+.product-details-content .desc-content-box .bottom ul li:before {
+    border: 1px solid #e74901;
+}

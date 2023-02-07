@@ -1,0 +1,95 @@
+
+<!--Start breadcrumb area-->     
+<section class="breadcrumb-area" style="background-image: url(/images/breadcrumb/breadcrumb-1.jpg);">
+    <div class="container" itemscope itemtype="https://schema.org/WebPage">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="inner-content">
+                    <div class="title">
+                       <h2>Loyiha haqida batafsil</h2>
+                    </div>
+                    <div class="breadcrumb-menu">
+                        <ul>
+                            <li><a href="/">Bosh sahifa</a></li>
+                            <li><span class="fa fa-angle-right"></span></li>
+                            <li class="active">Loyiha haqida<i class="flaticon-right-arrow-1 arrow1"></i></li>
+                        </ul>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End breadcrumb area-->
+
+<!--Start Project Details Area-->
+<section class="project-details-area"> 
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-7">
+                <div class="project-details_content">
+                    
+                    <div class="project-details_text">
+                        <div class="top">
+                            <div class="icon bgclr1">
+                                <span class="flaticon-factory"></span>
+                            </div>
+                            <div class="title">
+                                <% if(lang==='uz' ){ %>
+                                    <h3 itemprop="name"><%= result.title.uz %></h3> 
+                                    <% } %>
+                                    <% if(lang==='ru' ){ %>
+                                        <h3 itemprop="name"><%= result.title.ru %></h3> 
+                                    <% } %>
+                                    <% if(lang===undefined ){ %>
+                                        <h3 itemprop="name"><%= result.title.uz %></h3> 
+                                    <% } %>
+                               
+                            </div> 
+                        </div>
+                        <div class="top-text">
+                            <% if(lang==='uz' ){ %>
+                                <p itemprop="description"><%= result.description.uz %></p>
+                                <% } %>
+                                <% if(lang==='ru' ){ %>
+                                    <p itemprop="description"><%= result.description.ru %></p> 
+                                <% } %>
+                                <% if(lang===undefined ){ %>
+                                    <p itemprop="description"><%= result.description.uz %></p>
+                                <% } %>
+                            
+                        </div>
+                        <div class="project-details-image-box" id="gallery">
+                            <div class="row">
+                                <% for (let item of result.file) { %>
+                                <div class="col-xl-6">
+                                    <div class="img_holder">
+                                        <a href="/uploads/projects/<%= item %>" class="card-hover-overlay rounded overflow-hidden position-relative" data-fancybox="gallery">
+                                           <img src="/uploads/projects/<%= item %>" class="img-thumbnail rounded" alt="Project photo" style="height: auto !important; margin: 0 !important;">
+                                        </a>
+                                    </div>
+                                </div>
+                                <%}%>  
+                            </div>    
+                        </div>
+                        
+                    </div>  
+
+                 <div class="row">
+                     
+                        <div class="col-md-4"> 
+                            <ul class="wprt-list style-2 accent-color margin-top-30 margin-bottom-25">
+                                <li class="mb-3"><strong>Buyurtmachi:</strong> <%= result.firma %></li>
+                                <li class="mb-3"><strong>Topshirilgan yili:</strong> <%= result.year %></li>
+                                <li class="mb-3"><strong>Qurilgan joyi:</strong> <%= result.location.uz %></li>
+                    
+                            </ul>
+                        </div><!-- /.col-md-4 -->
+            
+                 </div>
+                </div>    
+            </div>          
+        </div>
+    </div>
+</section>
+<!--End Project Details Area-->

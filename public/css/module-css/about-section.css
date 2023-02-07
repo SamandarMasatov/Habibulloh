@@ -1,0 +1,427 @@
+
+
+
+/*** 
+=============================================
+    About Style1 Area Css   
+=============================================
+***/
+.about-style1-area{
+    position: relative;
+    display: block;
+    background: #f3f3f4;
+    z-index: 10;
+}
+
+.about-style1-content-box {
+    position: relative;
+    display: block;
+    margin-top: -350px;
+    background: #ffffff;
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: 0px 15px 60px 15px rgba(0, 0, 0, 0.05);
+}
+.about-style1-content-box .text-holder{
+    position: relative;
+    display: block;
+    max-width: 400px;
+    width: 100%;
+}
+.about-style1-content-box .sec-title{
+    padding-bottom: 33px;
+}
+.about-style1-content-box .inner-content{
+    position: relative;
+    display: block;
+}
+.about-style1-content-box .inner-content h3{
+    color: #646972;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0 16px;
+}
+
+.about-style1-content-box .inner-content ul {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 43px 50px 43px;
+    margin-top: 43px;
+}
+.about-style1-content-box .inner-content ul li {
+    position: relative;
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 18px;
+}
+.about-style1-content-box .inner-content ul li span {
+    position: relative;
+    top: 2px;
+    color: #ffffff;
+    font-size: 24px;
+}
+.about-style1-content-box .inner-content ul li:last-child{
+    margin: 0;
+}
+
+
+
+.about-style1-content-box .img-holder{
+    position: relative;
+    display: block;
+    max-width: 500px;
+    width: 100%;
+}
+.about-style1-content-box .img-holder .inner{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.about-style1-content-box .img-holder .inner::before{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255,255,255, .7) 0%, rgba(255,255,255,.3) 100%);
+    transform: skewX(25deg);
+    z-index: 2;
+}
+.about-style1-content-box .img-holder:hover .inner::before {
+    -webkit-animation: shine 1.9s;
+    animation: shine 1.9s;
+}
+.about-style1-content-box .img-holder .inner img{
+    width: 100%;
+}
+
+
+
+/*** 
+=============================================
+    About Style2 Area Css
+=============================================
+***/
+.about-style2-area{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: #ffffff;
+    padding-bottom: 120px;
+}
+
+.about-style2-content-box {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.about-style2-content-box .text-holder{
+    position: relative;
+    display: block;
+    max-width: 400px;
+    width: 100%;
+    padding-top: 190px;
+}
+.about-style2-content-box .sec-title{
+    padding-bottom: 33px;
+}
+.about-style2-content-box .inner-content{
+    position: relative;
+    display: block;
+}
+.about-style2-content-box .inner-content h3{
+    color: #646972;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0 16px;
+}
+.about-style2-content-box .inner-content ul {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 43px 50px 43px;
+    margin-top: 44px;
+}
+.about-style2-content-box .inner-content ul li {
+    position: relative;
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 18px;
+}
+.about-style2-content-box .inner-content ul li span {
+    position: relative;
+    top: 2px;
+    color: #ffffff;
+    font-size: 24px;
+}
+.about-style2-content-box .inner-content ul li:last-child{
+    margin: 0;
+}
+
+
+
+.about-style2-content-box .img-box {
+    position: relative;
+    display: block;
+    max-width: 670px;
+    width: 100%;
+}
+.about-style2-content-box .img-box .main_image {
+    position: relative;
+    display: block;
+    padding-top: 245px;
+    width: 100%;
+    height: 100%;
+}
+.about-style2-content-box .img-box .main_image .inner {
+    position: relative;
+    display: block;
+    max-width: 370px;
+    width: 100%;
+    float: right;
+    text-align: right;
+    z-index: 5;
+}
+.about-style2-content-box .img-box .main_image .image_2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.about-style2-content-box .img-box .main_image .image_3{
+    position: absolute;
+    top: 90px;
+    right: 100px;
+    z-index: 2;
+}
+.about-style2-content-box .img-box .main_image .image_4{
+    position: absolute;
+    left: 100px;
+    bottom: 0px;
+    z-index: 2;
+}
+.about-style2-content-box .img-box .main_image .image_5{
+    position: absolute;
+    left: 0px;
+    bottom: 230px;
+    z-index: 2;
+}
+
+
+
+/*** 
+=============================================
+    About Style3 Area Css
+=============================================
+***/
+.about-style3-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+}
+
+.about-style3-content-box {
+    position: relative;
+    display: block;
+    padding-left: 70px;
+    margin: 70px 0;
+}
+.about-style3-content-box .text-holder{
+    position: relative;
+    display: block;
+}
+.about-style3-content-box .sec-title{
+    padding-bottom: 33px;
+}
+.about-style3-content-box .inner-content{
+    position: relative;
+    display: block;
+}
+.about-style3-content-box .inner-content h3{
+    color: #646972;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0 16px;
+}
+.about-style3-content-box .inner-content ul {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 43px 50px 43px;
+    margin-top: 43px;
+}
+.about-style3-content-box .inner-content ul li {
+    position: relative;
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 18px;
+}
+.about-style3-content-box .inner-content ul li span {
+    position: relative;
+    top: 2px;
+    color: #ffffff;
+    font-size: 24px;
+}
+.about-style3-content-box .inner-content ul li:last-child{
+    margin: 0;
+}
+
+
+.about-style3-img-box{
+    position: relative;
+    display: block;
+    margin-left: 100px;
+}
+.about-style3-img-box .inner{
+    position: relative;
+    display: block;
+}
+.about-style3-img-box .inner img{
+    max-width: none;
+    float: left;
+}
+
+
+
+
+
+/*** 
+=============================================
+    About Style4 Area Css
+=============================================
+***/
+.about-style4-area{
+    position: relative;
+    display: block;
+    background: #f3f3f4;
+    padding-top: 120px;
+}
+.about-style4-content-box {
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+
+.about-style4-img-box {
+    position: relative;
+    display: block;
+    max-width: 570px;
+    width: 100%;
+    float: right;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.about-style4-img-box .inner{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.about-style4-img-box .inner::after {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255,255,255, .7) 0%, rgba(255,255,255,.3) 100%);
+    transform: skewX(25deg);
+    z-index: 2;
+}
+.about-style4-img-box:hover .inner::after {
+    -webkit-animation: shine 1.9s;
+    animation: shine 1.9s;
+}
+.about-style4-img-box .image-box2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 170px;
+    height: 170px;
+    z-index: 2;
+}
+.about-style4-img-box .image-box2::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: 10px solid #ffffff;
+    content: "";
+}
+
+.about-style4-img-box .shape-box1{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 210px;
+    height: 70px;
+    z-index: 2;
+}
+
+
+
+/*** 
+=============================================
+    About Page Css
+=============================================
+***/
+.about-style2-area.pdt120-pdb0{
+    padding-top: 120px;
+    padding-bottom: 0;
+}
+.service-style1-area.bg_white{
+    background: #ffffff;
+}
+.testimonial-style1-area.pdt120{
+    padding-top: 120px;
+}
+.features-style2-area{
+    position: relative;
+    display: block;
+    background: #f3f3f4;  
+}
+.features-style2-image-box {
+    position: relative;
+    display: block;
+}
+
+
+
+/*** 
+=============================================
+    One Page Scrool Css
+=============================================
+***/
+.about-style4-area.pdbottom120{
+    padding-bottom: 120px;
+}

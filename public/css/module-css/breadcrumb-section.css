@@ -1,0 +1,141 @@
+
+
+/*** 
+=============================================
+    Breadcrumb area style
+=============================================
+***/
+.breadcrumb-area {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 202px 0 201px;
+    z-index: 10;
+}
+.breadcrumb-area:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #11161e;
+    opacity: 0.70;
+    content: "";
+    z-index: -1;
+}
+.breadcrumb-area:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 250px;
+    content: "";
+    background-image: -moz-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgb(0,0,0) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgb(0,0,0) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgb(0,0,0) 100%);
+    opacity: 0.302;
+    z-index: -1;
+}
+
+
+
+.breadcrumb-area .inner-content {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.breadcrumb-area .title {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.breadcrumb-area .title h2{
+    color: #ffffff;
+    font-size: 55px;
+    line-height: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.breadcrumb-menu{
+    position: relative;
+    display: block;
+    line-height: 0;
+}
+.breadcrumb-menu ul {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.breadcrumb-menu ul li {
+    position: relative;
+    display: inline-block;
+    float: left;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-right: 6px;
+    margin-right: 6px;
+    font-family: 'Open Sans', sans-serif;
+}
+.breadcrumb-menu ul li:last-child{
+    padding-right: 0;
+    margin-right: 0;
+}
+.breadcrumb-menu ul li a {
+    color: #ffffff;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+
+.breadcrumb-menu ul li i.arrow1 {
+    position: relative;
+    top: 3px;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 0;
+    padding-left: 10px;
+    font-weight: 400;
+    margin-left: 5px;
+    z-index: 1;
+}
+.breadcrumb-menu ul li i.arrow1::after {
+    position: absolute;
+    top: -6px;
+    left: 5px;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    content: "";
+    z-index: -1;
+}
+
+
+
+
+
+
+
+/*** 
+=============================================
+    Breadcrumb Style2 Area Css
+=============================================
+***/
+.breadcrumb-style2-area{
+    padding-bottom: 501px;
+}
+
