@@ -1,550 +1,243 @@
-<style>
-    .big-title h1{
-        color: #fff;
-    }
-</style>
-
-<!-- Start Main Slider --> 
-<section class="main-slider style1">
-    <div class="slider-box">
-        <!-- Banner Carousel -->
-        <div class="banner-carousel owl-theme owl-carousel">
-            
-            <!-- Slide -->
-            <div class="slide">
-                <div class="image-layer" style="background-image:url(/images/slides/slide-v1-2.jpg)"></div>
-                <div class="auto-container" >
-                    <div class="content text-center">
-                        <div class="big-title" itemscope itemtype="https://schema.org/HomeAndConstructionBusiness">
-                            <% if(lang === 'uz') { %>
-                        <div>
-                            <h1 itemprop="name">
-                                Stroy Montaj Invest <br> Qurilish va suv tozalash inshootlarini qurish.
-                            </h1>
-                            <p><b>Manzil:</b><span itemprop="address">Termiz shahri barkamol avlod kuchasi 14 uy</span></p>
-                            <p><a itemprop="telephone" href="tel:+998993105151">+998 99 310 51 51</a></p>
-                        </div>
-                            <% } %>
-                            <% if(lang === 'ru') { %>
-                            <h1 itemprop="name">
-                                Строй Монтаж Инвест <br> Строительство очистные сооружения
-                            </h1>
-                            <p><b>Наш адресс:</b><span itemprop="address">Город Термез, улица Баркамол авлод 14</span></p>
-                            <p><a itemprop="telephone" href="tel:+998993105151">+998 99 310 51 51</a></p>
-                            <% } %>
-                            <% if(lang === undefined) { %>
-                            <h1 itemprop="name">
-                                Строй Монтаж Инвест <br> Строительство очистные сооружения.
-                            </h1>
-                            <p><b>Наш адресс:</b><span itemprop="address">Город Термез, улица Баркамол авлод 14</span></p>
-                            <p><a itemprop="telephone" href="tel:+998993105151">+998 99 310 51 51</a></p>
-                            <% } %>
-                        </div>
-                        <div class="btns-box">
-                            <div class="left">
-                                <% if(lang === 'uz') { %>
-                                <a class="btn-one style2" href="#about"><span class="txt">
-                                        Biz haqimizda
-                                        <i class="flaticon-right-arrow-1 arrow1"></i></span></a>
-                                <% } %>
-                                <% if(lang === 'ru') { %>
-                                <a class="btn-one style2" href="#about"><span class="txt">
-                                        О нас
-                                        <i class="flaticon-right-arrow-1 arrow1"></i></span></a>
-                                <% } %>
-                                <% if(lang === undefined) { %>
-                                <a class="btn-one style2" href="#about"><span class="txt">
-                                        О нас
-                                        <i class="flaticon-right-arrow-1 arrow1"></i></span></a>
-                                <% } %>
+        <!-- start of hero -->
+        <section class="hero hero-style-1">
+            <div class="hero-slider">
+                <div class="slide">
+                    <div class="container">
+                        <img src="assets/images/slider/slide-1.jpg" alt class="slider-bg">
+                        <div class="row">
+                            <div class="col col-md-8 col-md-offset-2 slide-caption">
+                                <div class="slide-top">
+                                    <span>Keling Islomni o'rganamiz.</span>
+                                </div>
+                                <div class="slide-title">
+                                    <h2>Eslating! Zero eslatma mo'minlarga manfa`at yetkazur</h2>
+                                </div>
+                                <div class="btns">
+                                    <a href="#" class="theme-btn">Maruzalar sahifasi</a>
+                                </div>
                             </div>
-                            <div class="right">
-                                <% if(lang === 'uz') { %>
-                                <a class="btn-one style3" href="/contact"><span class="txt">
-                                        Aloqa
-                                        <i class="flaticon-right-arrow-1 arrow1"></i></span></a>
-                                <% } %>
-                                <% if(lang === 'ru') { %>
-                                <a class="btn-one style3" href="/contact"><span class="txt">
-                                        СВЯЗАТЬСЯ
-                                        <i class="flaticon-right-arrow-1 arrow1"></i></span></a>
-                                <% } %>
-                                <% if(lang === undefined) { %>
-                                <a class="btn-one style3" href="/contact"><span class="txt">
-                                        
-                                        СВЯЗАТЬСЯ
-                                        <i class="flaticon-right-arrow-1 arrow1"></i></span></a>
-                                <% } %>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="container">
+                        <img src="assets/images/slider/slide-2.jpg" alt class="slider-bg">
+                        <div class="row">
+                            <div class="col col-md-8 col-md-offset-2 slide-caption">
+                                <div class="slide-top">
+                                    <span>Keling Islomni o'rganamiz.</span>
+                                </div>
+                                <div class="slide-title">
+                                    <h2>Yaratgan Robbing nomi bilan o`qi. U insonni alaqdan yaratdi.</h2>
+                                </div>
+                                <div class="btns">
+                                    <a href="#" class="theme-btn">Maruzalar sahifasi</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="container">
+                        <img src="assets/images/slider/slide-3.jpg" alt class="slider-bg">
+                        <div class="row">
+                            <div class="col col-md-8 col-md-offset-2 slide-caption">
+                                <div class="slide-top">
+                                    <span>Keling Islomni o'rganamiz.</span>
+                                </div>
+                                <div class="slide-title">
+                                    <h2>O`qi! Robbing Karamlilarning karamlisidir. U, qalam bilan ilm o`rgatgandir.</h2>
+                                </div>
+                                <div class="btns">
+                                    <a href="#" class="theme-btn">Maruzalar sahifasi</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Slide -->
-            <div class="slide">
-                <div class="image-layer" style="background-image:url(/images/slides/slide-v1-1.jpg)"></div>
-                <div class="auto-container">
-                    <div class="content text-center">
-                        <div class="big-title" >
-                            <% if(lang === 'uz') { %>
-                            <h1>
-                               Stroy Montaj Invest <br> Qurilish kompanyasi 
-                            </h1>
-                            <% } %>
-                            <% if(lang === 'ru') { %>
-                            <h1>
-                                Строй Монтаж Инвест <br> Строительная компания
-                            </h1> 
-                            <% } %>
-                            <% if(lang === undefined) { %>
-                            <h1 >
-                                Строй Монтаж Инвест <br> Строительная компания
-                            </h1>
-                            <% } %>
-                        </div>
-                        <div class="btns-box">
-                            <div class="left">
-                                <% if(lang === 'uz') { %>
-                                <a class="btn-one style2" href="#about"><span class="txt">
-                                        Biz haqimizda
-                                        <i class="flaticon-right-arrow-1 arrow1"></i></span></a>
-                                <% } %>
-                                <% if(lang === 'ru') { %>
-                                <a class="btn-one style2" href="#about"><span class="txt">
-                                        О нас
-                                        <i class="flaticon-right-arrow-1 arrow1"></i></span></a>
-                                <% } %>
-                                <% if(lang === undefined) { %>
-                                <a class="btn-one style2" href="#about"><span class="txt">
-                                        О нас
-                                        <i class="flaticon-right-arrow-1 arrow1"></i></span></a>
-                                <% } %>
+        </section>
+        <!-- end of hero slider -->
+        <!-- wpo-about-area start -->
+        <div class="wpo-about-area-2 section-padding">
+            <div class="container">
+                <div class="wpo-about-wrap">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="wpo-about-img-3">
+                                <img src="assets/images/man.jpg" alt="Man">
                             </div>
-                            <div class="right">
-                                <% if(lang === 'uz') { %>
-                                <a class="btn-one style3" href="/contact"><span class="txt">
-                                        Aloqa
-                                        <i class="flaticon-right-arrow-1 arrow1"></i></span></a>
-                                <% } %>
-                                <% if(lang === 'ru') { %>
-                                <a class="btn-one style3" href="/contact"><span class="txt">
-                                        СВЯЗАТЬСЯ
-                                        <i class="flaticon-right-arrow-1 arrow1"></i></span></a>
-                                <% } %>
-                                <% if(lang === undefined) { %>
-                                <a class="btn-one style3" href="/contact"><span class="txt">
-                                        СВЯЗАТЬСЯ
-                                        <i class="flaticon-right-arrow-1 arrow1"></i></span></a>
-                                <% } %>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="wpo-about-text">
+                                <div class="wpo-section-title" id="about">
+                                    <span>Haqimizda</span>
+                                    <h2>Seeking of knowledge is a duty of every Muslim</h2>
+                                </div>
+                                <p>The rise of Muslims to the zenith of civilization in a period of four decades was based on lslam's emphasis on learning. This is obvious when one takes a look at the Qur'an and the traditions of Prophet Muhammad which are filled with references to learning, education, observation.</p>
+                                <div class="btns">
+                                    <a href="about.html" class="theme-btn" tabindex="0">YouTube sahifa</a>
+                                    <ul>
+                                        <li class="video-holder">
+                                            <a href="https://www.youtube.com/embed/LTqRm53QjI0" class="video-btn" data-type="iframe" tabindex="0"></a>
+                                        </li>
+                                        <li class="video-text">
+                                            <a href="https://www.youtube.com/embed/LTqRm53QjI0" class="video-btn" data-type="iframe" tabindex="0">
+                                                Video maruzalar
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Main Slider -->
-
-
-<!--Start About Style1 Area float-bob-y  paroller-2 -->
-<section class="about-style1-area" id="about">
-    <div class="container">
-        <div class="row">
-
-            <div class="col-xl-12">
-                <div class="about-style1-content-box text-right-rtl">
-                    <div class="text-holder" itemscope itemtype="https://schema.org/HomeAndConstructionBusiness" >
-                        <div class="sec-title">
-                            <div class="sub-title" >
-                                <% if(lang === 'uz') { %>
-                                <h5 itemprop="description">
-                                    Biz haqimizda
-                                </h5>
-                                <% } %>
-                                <% if(lang === 'ru') { %>
-                                <h5 itemprop="description">
-                                    О нас
-                                </h5>
-                                <% } %>
-                                <% if(lang === undefined) { %>
-                                <h5 itemprop="description">
-                                    Biz haqimizda
-                                </h5>
-                                <% } %>
+                <div class="timer-section" id="namoz">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="timer-text">
+                                <h2>Namoz vaqtlari</h2>
+                                <p>Termiz namoz vaqtlari</p>
+                                <span>Mon 15 Jan, 2020</span>
                             </div>
-                            <% if(lang === 'uz') { %>
-                            <h2>
-                                Bizda 10 yillik ish tajribasi
-                            </h2>
-                            <% } %>
-                            <% if(lang === 'ru') { %>
-                            <h2>
-                                У нас 10 лет опыта работы <br> Опыт проектирования
-                            </h2>
-                            <% } %>
-                            <% if(lang === undefined) { %>
-                            <h2>
-                                У нас 10 лет опыта работы <br> Опыт проектирования
-                            </h2>
-                            <% } %>
                         </div>
-                        <div class="inner-content">
-                            <% if(lang === 'uz') { %>
-                                <h3 itemprop="name">Uy joy Qurish va Suv tozalash inshootlarini ishlab chiqarish kompanyasi.</h3>
-                                <p><b>Manzil:</b><span itemprop="address">Termiz shahri barkamol avlod kuchasi 14 uy</span></p>
-                                <p><a itemprop="telephone" href="tel:+9988993105151">+9988 99 310 51 51</a></p>
-                            <% } %>
-                            <% if(lang === 'ru') { %>
-                            <h3 itemprop="name"> Строительство многоэтожных дамов и Очестные сооружения</h3>
-                            <p><b>Manzil:</b><span itemprop="address">Город Термез, улица Баркамол авлод 14</span></p>
-                            <p><a itemprop="telephone" href="tel:+9988993105151">+9988 99 310 51 51</a></p>
-                            <% } %>
-                            <% if(lang === undefined) { %>
-                            <h3 itemprop="name">Строительство многоэтожных дамов и Очестные сооружения.</h3>
-                            <p><b>Manzil:</b><span itemprop="address">Город Термез, улица Баркамол авлод 14</span></p>
-                            <p><a itemprop="telephone" href="tel:+998993105151">+998 99 310 51 51</a></p>
-                            <% } %>
-
-                            <% for(let item of abouts){ %>
-                            <% if(lang==='uz' ){ %>
-                            <p itemprop="description"> <%= item.name.uz %></p>
-                            <% } %>
-                            <% if(lang==='ru' ){ %>
-                            <p itemprop="description"> <%= item.name.ru %></p>
-                            <% } %>
-                            <% if(lang===undefined ){ %>
-                            <p itemprop="description"> <%= item.name.ru %></p>
-                            <% } %>
-
-                            <% } %>
-                            <ul class="bgclr1">
-                                <% if(lang === 'uz') { %>
-                                <li><span>6</span>
-                                    Yillik ish tajribasi.
-                                </li>
-                                <% } %>
-                                <% if(lang === 'ru') { %>
-                                <li><span>6</span>
-                                    лет опыта работы
-                                </li>
-                                <% } %>
-                                <% if(lang === undefined) { %>
-                                <li><span>6</span>
-                                    лет опыта работы<br>
-                    1         </li>
-                                <% } %>
-                                <% if(lang === 'uz') { %>
-                                <li><span>30</span>
-                                    Yakunlangan proyektlar
-                                </li>
-                                <% } %>
-                                <% if(lang === 'ru') { %>
-                                <li><span>30</span>
-                                    ЗАВЕРШЕННЫЕ ПРОЕКТЫ
-                                </li>
-                                <% } %>
-                                <% if(lang === undefined) { %>
-                                <li><span>30</span>
-                                    ЗАВЕРШЕННЫЕ ПРОЕКТЫ
-                                </li>
-                                <% } %>
-                            </ul>
+                        <div class="col-md-5 col-md-offset-1">
+                            <div class="timer-num">
+                                <ul>
+                                    <li>Tong<span>05:47</span></li>
+                                    <li>Quyosh<span>07:05</span></li>
+                                    <li>Peshin<span>12:34</span></li>
+                                    <li>Asr<span>15:35</span></li>
+                                    <li>Shom<span>17:58</span></li>
+                                    <li>Xufton<span>19:15</span></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="img-holder">
-                        <div class="inner">
-                            <img src="/images/about/about-style1-image-1.jpg" alt="">
-                        </div>
+                    <div class="timer-shape1">
+                        <img src="assets/images/prayer-shape/2.png" alt="">
+                    </div>
+                    <div class="timer-shape2">
+                        <img src="assets/images/prayer-shape/1.png" alt="">
+                    </div>
+                    <div class="timer-shape3">
+                        <img src="assets/images/prayer-shape/3.png" alt="">
                     </div>
                 </div>
             </div>
-
         </div>
-    </div>
-</section>
-<!--End About Style1 Area-->
-
-
-<!-- Start Service Style1 Area -->
-<section class="service-style1-area" id="service">
-    <div class="container">
-        <% if(lang === 'uz') { %>
-        <h2 class="text-center mb-5"><span>
-            Bizning Xizmatlar
-            </span> </h2>
-        <% } %>
-        <% if(lang === 'ru') { %>
-        <h2 class="text-center mb-5"><span>
-            Наши Услуги
-            </span> </h2>
-        <% } %>
-        <% if(lang === undefined) { %>
-        <h2 class="text-center mb-5"><span>
-            Наши Услуги
-            </span> </h2>
-        <% } %>
-
-        <div class="row">
-            <% for (let item of services) { %>
-            <!--Start Single Service Style1-->
-            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft position-relative" data-wow-delay="0ms"
-                data-wow-duration="1500ms" itemscope itemtype="https://schema.org/HomeAndConstructionBusiness">
-                <a href="<%=`/servic/${item._id}`%>">
-                    <div class="single-service-style1">
-                        <div class="icon-holder">
-                            <div class="inner" itemprop="image">
-                                <img src="/uploads/services/<%= item.image %>" alt="Photo build">
-                            </div>
-                        </div>
-                        <div class="text-holder">
-                            <% if(lang === 'uz') { %>
-                                <a href="<%=`/servic/${item._id}`%>">
-                                    <h3 itemprop="name"><%= item.name.uz %></h3>
-                                </a>
-                                <a href="<%=`/servic/${item._id}`%>">
-                                    <p itemprop="description"><%= item.title.uz %></p>
-                                </a>
-                                <p style="display: none;"><b>Manzil:</b><span itemprop="address">Termiz shahri barkamol avlod kuchasi 14 uy</span></p>
-                                <p style="display: none;"><a itemprop="telephone" href="tel:+9988993105151">+9988 99 310 51 51</a></p>
-                                <% } %>
-                                <% if(lang === 'ru') { %>
-                                    <a href="<%=`/servic/${item._id}`%>">
-                                        <h3 itemprop="name"><%= item.name.ru %></h3>
-                                    </a>
-                                    <a href="<%=`/servic/${item._id}`%>">
-                                        <p itemprop="description"><%= item.title.ru %></p>
-                                    </a>
-                                    <p style="display: none;"><b>Manzil:</b><span itemprop="address">Termiz shahri barkamol avlod kuchasi 14 uy</span></p>
-                                    <p style="display: none;"><a itemprop="telephone" href="tel:+9988993105151">+9988 99 310 51 51</a></p>
-                                <% } %>
-                                <% if(lang === undefined) { %>
-                                    <a href="<%=`/servic/${item._id}`%>">
-                                        <h3 itemprop="name"><%= item.name.ru %></h3>
-                                    </a>
-                                    <a href="<%=`/servic/${item._id}`%>">
-                                        <p itemprop="description"><%= item.title.ru %></p>
-                                    </a>
-                                    <p style="display: none;"><b>Manzil:</b><span itemprop="address">Termiz shahri barkamol avlod kuchasi 14 uy</span></p>
-                                    <p style="display: none;"><a itemprop="telephone" href="tel:+9988993105151">+9988 99 310 51 51</a></p>
-                                <% } %>
-                            
+        <!-- wpo-about-area end -->
+        <!-- wpo-event-area start -->
+        <div class="wpo-event-area-2 section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="wpo-section-title">
+                            <span>Ma`qolalar</span>
+                            <h2>So'nggi ma`qolalar</h2>
                         </div>
                     </div>
-                </a>
-            </div>
-            <!--End Single Service Style1-->
-
-            <%}%>
-        </div>
-    </div>
-</section> 
-<!-- End Service Style1 Area -->
-
-
-<!--Start Project Style1 Area-->
-<section class="project-style1-area" id="projects">
-    <div class="custom-container">
-
-        <div class="container">
-            <div class="project-style1_top_box">
-                <div class="sec-title">
-                    <div class="sub-title">
-                        <% if(lang === 'uz') { %>
-                            <h5>
-                                Bizning Loyihalar
-                            </h5>
-                        <% } %>
-                        <% if(lang === 'ru') { %>
-                            <h5>
-                                Наши Проекты
-                            </h5>
-                            <% } %>
-                        <% if(lang === undefined) { %>
-                            <h5>
-                                Наши Проекты
-                            </h5>
-                        <% } %>
-        </div>
-        <% if(lang === 'uz') { %>
-            <h2>
-                Loyihalar
-            <span></span></h2>
-            <% } %>
-            <% if(lang === 'ru') { %>
-                <h2>
-                    Проекты
-                    <span></span></h2>
-            <% } %>
-            <% if(lang === undefined) { %>
-                <h2>
-                    Проекты
-                    <span></span></h2>
-            <% } %>
-         </div>
-       </div>
-    </div>
-
-    <div class="project-style1_content"> 
-        <% for (let item of projects) { %>
-        <!--Start Single Project Style1-->
-        <a href="<%=`/project/${item._id}`%>">
-            <div class="single-project-style1 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                <a href="<%=`/project/${item._id}`%>">
-                    <div class="img-holder">
-                        <div class="icon bgclr1"><span class="flaticon-architect"></span></div>
-                        <div class="inner">
-                            <img src="/uploads/projects/<%= item.file[0] %>" alt="Awesome Image"
-                                style="height: 300px !important; width: 300px !important; object-fit: cover;">
-                        </div>
-                    </div>
-                </a>
-                <div class="title-holder">
-
-                    <% if(lang==='uz' ){ %>
-                        <h4><%=  item.title.uz  %></h4>
-                    <%}%>
-                    <% if(lang==='ru' ){ %>
-                        <h4><%= item.title.ru %></h4>
-                    <%}%>
-                    <% if(lang===undefined ){ %>
-                        <h4><%=  item.title.ru  %></h4>
-                    <%}%>
-
-                    </div>   
-                </div>
-            
-            <!--End Single Project Style1--> 
-            <%}%>
-
-
                 </div>
                 <div class="row">
-                    <div class="col-xl-12">
-                        <div class="project-style1_viewmore_button text-center">
-                            
-                            <% if(lang === 'uz') { %>
-                                <a class="btn-one" href="/projects"><span class="txt">
-                                    Barcha Loyihalar
-                                    <i class="flaticon-right-arrow-1 arrow1"></i></span></a>
-                            <% } %>
-                            <% if(lang === 'ru') { %>
-                                <a class="btn-one" href="/projects"><span class="txt">
-                                    Посмотреть все портфолио
-                                    <i class="flaticon-right-arrow-1 arrow1"></i></span></a>
-                            <% } %>
-                            <% if(lang === undefined) { %>
-                                <a class="btn-one" href="/projects"><span class="txt">
-                                    Посмотреть все портфолио
-                                    <i class="flaticon-right-arrow-1 arrow1"></i></span></a>
-                            <% } %>
+                    <div class="col-md-6 col-sm-12 col-12 custom-grid">
+                        <div class="wpo-event-item">
+                            <div class="wpo-event-img">
+                                <img src="assets/images/event/img-3.jpg" alt="">
+                                <div class="thumb-text">
+                                    <span>5</span>
+                                    <span>FEV</span>
+                                </div>
+                            </div>
+                            <div class="wpo-event-text">
+                                <h2>Learn About Hajj</h2>
+                                <ul>
+                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i>8.00 - 5.00</li>
+                                    <li><i class="fi ti-location-pin"></i>Newyork City</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                <a href="event-single.html">Learn More...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-12 custom-grid">
+                        <div class="wpo-event-item">
+                            <div class="wpo-event-img">
+                                <img src="assets/images/event/img-4.jpg" alt="">
+                                <div class="thumb-text-2">
+                                    <span>7</span>
+                                    <span>FEV</span>
+                                </div>
+                            </div>
+                            <div class="wpo-event-text">
+                                <h2>Islamic Teaching Event</h2>
+                                <ul>
+                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i>8.00 - 5.00</li>
+                                    <li><i class="fi ti-location-pin"></i>Newyork City</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                <a href="event-single.html">Learn More...</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-
             </div>
-</section>
-<!--End Project Style1 Area-->
-
-<!--Start Team Style1 Area-->
-<section class="team-style1-area" id="team">
-    <div class="container">
-        <div class="sec-title text-center">
-            
-            <% if(lang === 'uz') { %>
-                <h2>
-                    Jamoa A'zolari
-                </h2>
-            <% } %>
-            <% if(lang === 'ru') { %>
-                    <h2>
-                        Члены команды
-                    </h2>
-            <% } %>
-            <% if(lang === undefined) { %>
-                    <h2>
-                        Члены команды
-                    </h2>
-            <% } %>
         </div>
-        <div class="row text-right-rtl">
-            <% for (let item of teams) { %>
-            <!--Start Single Team Item-->
-            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-                <div class="single-team-item">
-                    <div class="img-holder">
-                        <div class="inner">
-                            <img src="/uploads/team/<%= item.image %>"
-                                style="height: 300px !important; width: 350px !important; object-fit: cover;" alt="Photo Build">
-                        </div>
-                        <div class="overlay-icon">
-                            <a href="#"><span class="flaticon-plus"></span></a>
-                        </div>
-                    </div>
-                    <div class="title-holder">
-
-                        <% if(lang==='uz' ){ %>
-                             <h3><%=  item.name.uz  %></h3>
-                        <%}%>
-                        <% if(lang==='ru' ){ %>
-                              <h3><%= item.name.ru %></h3>
-                        <%}%>
-                        <% if(lang===undefined ){ %>
-                             <h3><%=  item.name.ru %></h3>
-                        <%}%>
-
-
-                        <% if(lang==='uz' ){ %>
-                            <p><%=  item.job.uz  %></p>
-                        <%}%>
-                            <% if(lang==='ru' ){ %>
-                                 <p><%= item.job.ru %></p>
-                        <%}%>
-                            <% if(lang===undefined ){ %>
-                                <p><%=  item.job.ru %></p>
-                        <%}%>
-                    </div>  
-                </div>               
-            </div>
-            <!-- End Single Team Item-->
-            <%}%>
+        <!-- wpo-event-area end -->
+        <!-- blog-area start -->
+        <div class="blog-area section-padding">
+            <div class="container">
+                <div class="col-l2">
+                    <div class="wpo-section-title">
+                        <span>Ma`qolalar</span>
+                        <h2>Eski ma'qolalar</h2>
                     </div>
                 </div>
-</section>
-<!--End Team Style1 Area-->
-
- <section id="app">
-    <div class="container" itemscope itemtype="https://schema.org/HomeAndConstructionBusiness">
-        <% for (let item of articles) { %>
-        <div class="article">
-            <h1 class="text-center mt-4 text-warning" itemprop="name"><%=  item.name.ru  %></h1>
-        <div class="row my-4 <%= item.change %>">
-           
-               <div class="col-md-4">
-                   <img itemprop="image" class="img-fluid" src="/uploads/articles/<%= item.image %>" alt="Очистные сооружения">
-               </div>
-               <div class="col-md-8">
-               <p class="fs-5" itemprop="description">
-                <%=  item.title.ru %>
-               </p>
-               </div>
-           
-        </div>
-
-        <div class="row mb-4">
-            <div class="col-md-11">
-                <p class="fs-5" itemprop="description">
-                    <%=  item.description.ru %>
-                </p>
-                <p><b>Manzil:</b><span itemprop="address">Termiz shahri barkamol avlod kuchasi 14 uy</span></p>
-                <p><a itemprop="telephone" href="tel:+998993105151">+998 99 310 51 51</a></p>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 col-12 custom-grid">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="assets/images/blog/img-4.jpg" alt="">
+                            </div>
+                            <div class="blog-content">
+                                <h3><a href="blog-single.html">The Importance of Marriage in Islam.</a></h3>
+                                <ul class="post-meta">
+                                    <li><img src="assets/images/blog/admin.jpg" alt=""></li>
+                                    <li><a href="#">Jenefar Jany</a></li>
+                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 21 Jan 2020</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12 custom-grid">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="assets/images/blog/img-5.jpg" alt="">
+                            </div>
+                            <div class="blog-content">
+                                <h3><a href="blog-single.html">Salat is the best exercise for body fitness</a></h3>
+                                <ul class="post-meta">
+                                    <li><img src="assets/images/blog/admin.jpg" alt=""></li>
+                                    <li><a href="#">Jenefar Jany</a></li>
+                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 21 Jan 2020</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12 custom-grid">
+                        <div class="blog-item b-0">
+                            <div class="blog-img">
+                                <img src="assets/images/blog/img-6.jpg" alt="">
+                            </div>
+                            <div class="blog-content">
+                                <h3><a href="blog-single.html">Salat is the best exercise for body fitness</a></h3>
+                                <ul class="post-meta">
+                                    <li><img src="assets/images/blog/admin.jpg" alt=""></li>
+                                    <li><a href="#">Jenefar Jany</a></li>
+                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 21 Jan 2020</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
-        <%}%>
-      
-
-    </div>
-   
-</section>
- 
