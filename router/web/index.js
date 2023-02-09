@@ -7,7 +7,7 @@ router.get("/contact", webIndex.contact);
 router.get("/maqolalar", webIndex.projects);
 router.get("/about", webIndex.projectsru);
 router.get("/error", webIndex.index); 
-router.get("/project/:id", webIndex.projectOne);
+router.get("/maqola/:id", webIndex.projectOne);
 router.get("/news/:id", webIndex.newsOne); 
 router.get("/servic/:id", webIndex.servicesOne);
 router.get("/team/:id", webIndex.teamOne);

@@ -51,8 +51,8 @@ exports.contact = async (req, res) => {
 
 exports.projectOne = async (req, res) => {
     const result = await Projects.findById({ _id: req.params.id })
-    res.render("./web/project_one", { 
-        title: "Suv tozalash inshootlari | Stroy montaj invest", 
+    res.render("./web/article_one", { 
+        title: "Maqola", 
         layout: "./web_layout",
         result, 
     })
