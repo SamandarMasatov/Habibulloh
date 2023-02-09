@@ -14,7 +14,7 @@ exports.index = async (req, res) => {
     const articles = await Articles.find().sort({ date: -1 });
     const abouts = await Abouts.find();
     res.render("./web/index", { 
-        title: "Очистные сооружения | Канализация | Строительство | Stroy Montaj Invest", 
+        title: "Habibulloh", 
         layout: "./web_layout",
         lang: req.session.ulang,
         projects, abouts, services, news, teams, articles,
@@ -24,8 +24,8 @@ exports.index = async (req, res) => {
 exports.projects = async (req, res) => {
     const projects = await Projects.find().sort({ date: -1 });
     res.render("./web/projects", { 
-        title: "Suv tozalash inshootlari: xususiyatlari, tozalash va afzalliklari", 
-        layout: "./web/projects",
+        title: "Ma'ruzalar", 
+        layout: "./web_layout",
         lang: req.session.ulang,
         projects,
     })
@@ -33,9 +33,9 @@ exports.projects = async (req, res) => {
 
 exports.projectsru = async (req, res) => {
     const projects = await Projects.find().sort({ date: -1 });
-    res.render("./web/projectsru", { 
-        title: "Что такое очистные сооружения, принцип работы | Stroy montaj invest", 
-        layout: "./web/projectsru",
+    res.render("./web/about", { 
+        title: "Biz haqimizda", 
+        layout: "./web_layout",
         lang: req.session.ulang,
         projects,
     })

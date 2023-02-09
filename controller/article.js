@@ -5,20 +5,9 @@ const fs = require('fs');
 
 exports.create = async (req, res) => {  
     const result = new Article({
-        name: {
-            uz: req.body.nameuz,
-            ru: req.body.nameru,
-          },
-        title: {
-            uz: req.body.titleuz,
-            ru: req.body.titleru,
-        },
+        description: req.body.description,
         image: `${req.file.filename}`,
-        change: req.body.change,
-        description: {
-            uz: req.body.descriptionuz,
-            ru: req.body.descriptionru,
-        }
+        title: req.body.title,
     });
     
     await result  

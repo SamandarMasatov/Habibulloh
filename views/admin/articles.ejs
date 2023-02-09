@@ -5,8 +5,7 @@
             <tr>
                 <th>Maqola rasmi</th>  
                 <th>Sarlavha</th>  
-                <th>Qisqa tavsif</th> 
-                <th>Joylashuv</th>
+                <th>Maqola</th>  
                 <th>Tahrirlash</th>  
             </tr>
         </thead>
@@ -14,9 +13,8 @@
             <% for (let item of articles) { %>
             <tr>
                 <td><img class="img-fluid rounded" src="/uploads/articles/<%= item.image %>" alt="articles"></td>
-                <td><%= item.name.ru %></td>
-                <td><%= item.title.ru %></td>
-                <td><%= item.change %></td>
+                <td><%= item.title %></td>
+                <td><%= item.description %></td>
                 <td class="table-action">
                     <a href="<%=`/article/${item._id}`%>" class="action-icon"> <i class="mdi mdi-pencil"></i></a>
                 <form method="POST" class="hidden-r" action="<%=`/article/delete/${item._id}?_method=DELETE`%>"> 
