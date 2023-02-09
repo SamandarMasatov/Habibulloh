@@ -4464,11 +4464,12 @@ img {
 
 .wpo-event-img {
     position: relative;
-    float: left;
 }
 
 .wpo-event-img img {
+    object-fit: cover;
     width: 100%;
+    height: 270px;
 }
 
 .wpo-event-img .thumb-text,
@@ -8363,6 +8364,8 @@ wpo-blog sidebar
 
 .entry-media img {
     width: 100%;
+    max-width: 770px;
+    height: 500px;
 }
 
 .author-btn a {
