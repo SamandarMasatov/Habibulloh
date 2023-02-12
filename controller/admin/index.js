@@ -85,7 +85,7 @@ exports.articles = async (req, res) => {
     })
 } 
 exports.message = async (req, res) => {
-    const message = await Message.find().sort({date: -1});
+    const message = await Message.find().sort({createdAt: -1});
     res.render("./admin/message", { 
         title: "Xabarlar", 
         layout: "./admin_layout",

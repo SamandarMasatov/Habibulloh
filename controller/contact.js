@@ -1,24 +1,24 @@
-const Contact = require('../models/contact');
-const path = require('path');
-const fs = require('fs');
+const Contact = require("../models/contact");
+const path = require("path");
+const fs = require("fs");
 
 exports.create = async (req, res) => {
-    const result = new Contact({
-        name: req.body.name,
-        phone: req.body.phone,
-        message: req.body.message,
-    });
-     
-    await result 
+  const result = new Contact({
+    name: req.body.name,
+    phone: req.body.phone,
+    message: req.body.message,
+  });
+
+  await result
     .save()
     .then(() => {
-        res.redirect("/");
-        // res.status(200).json({ success: true, data: data });
+      // res.redirect("/");
+      res.status(200).json({ success: true, data: data });
     })
     .catch((error) => {
-        res.status(400).json({ success: false, data: error });
+      res.status(400).json({ success: false, data: error });
     });
-} 
+};
 
 // exports.getOne = async (req, res, next) => {
 //     const result = await News.findById({ _id: req.params.id });
@@ -28,7 +28,6 @@ exports.create = async (req, res) => {
 //       result
 //     });
 //   };
-
 
 // exports.UpdateOne = async (req, res, next) => {
 //     await News.findByIdAndUpdate({ _id: req.params.id }).exec((error, data) => {
@@ -56,7 +55,6 @@ exports.create = async (req, res) => {
 //         });
 // };
 
-
 // exports.updateInfo = async (req, res, next) => {
 //     const result = await News.findByIdAndUpdate({ _id: req.params.id });
 
@@ -78,7 +76,7 @@ exports.create = async (req, res) => {
 //         .catch((error) => {
 //             res.status(400).json({ success: false, data: error });
 //         });
-// }; 
+// };
 
 // exports.deleteOne = async (req, res, next) => {
 //     await News.findById({ _id: req.params.id }).exec(async (error, data) => {
@@ -96,4 +94,4 @@ exports.create = async (req, res) => {
 //             });
 //         }
 //     });
-// }; 
+// };
