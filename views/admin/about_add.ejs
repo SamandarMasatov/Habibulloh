@@ -1,21 +1,100 @@
 <h1>Kompanya haqida</h1>
 <div class="container mt-3 mb-3">
-    <form action="/about/add" method="POST" class="needs-validation" novalidate>
-       <!-- Loyiha haqida  model name -->
-       <div class="mb-3"> 
-        <label class="form-label"  >Kompanya haqida Uzbek tilida</label>
-        <textarea class="form-control "  rows="5" 
-          placeholder="Kompanya haqida yozing Uzbek tilida" name="nameuz" ></textarea>
-        
-    </div>
+  <form
+    action="/about/add"
+    method="POST"
+    enctype="multipart/form-data"
+    class="needs-validation"
+    novalidate
+  >
+    <!-- Maqolaning turi model name -->
     <div class="mb-3">
-        <label class="form-label">Kompanya haqida Rus tilida</label>
-        <textarea class="form-control "  rows="5" 
-            placeholder="Kompanya haqida yozing rus tilida" name="nameru" ></textarea>
-        
+      <label class="form-label" for="validationCustom01"
+        >Maqolaning sarlavhasi</label
+      >
+      <input
+        type="text"
+        class="form-control"
+        id="validationCustom01"
+        placeholder="Maqolaning nomini yozing Uzbek tilida"
+        name="title"
+        required
+      />
+      <div class="invalid-feedback">Maqolaning nomi yozilmagan</div>
+      <div class="valid-feedback">Yaxshi</div>
+    </div>
+    <hr style="color: red; height: 2px" />
+
+    <!-- Maqolaning turi model name -->
+    <div class="mb-3">
+      <label class="form-label" for="validationCustom01"
+        >Maqolaning sarlavhasi</label
+      >
+      <input
+        type="text"
+        class="form-control"
+        id="validationCustom01"
+        placeholder="Maqolaning nomini yozing Uzbek tilida"
+        name="video"
+        required
+      />
+      <div class="invalid-feedback">Maqolaning nomi yozilmagan</div>
+      <div class="valid-feedback">Yaxshi</div>
+    </div>
+    <hr style="color: red; height: 2px" />
+    <!-- Maqolaning rasmi model file -->
+    <div class="mb-3">
+      <label class="form-label" for="validationCustom01"
+        >Maqolaning rasmi</label
+      >
+      <input
+        type="file"
+        class="form-control"
+        id="validationCustom01"
+        placeholder="Xizmatning rasmini tanlang"
+        name="image"
+        required
+      />
+      <div class="invalid-feedback">Maqolaning rasmi tanlanmagan</div>
+      <div class="valid-feedback">Rasm tanlandi</div>
+    </div>
+    <hr style="color: red; height: 2px" />
+
+    <div class="mb-3">
+      <input
+        type="hidden"
+        class="form-control date-maqola"
+        id="validationCustom01"
+        name="date"
+        required
+      />
     </div>
 
-        
-        <button class="btn btn-primary" type="submit">Yuklash</button>
-    </form>
+    <button class="btn btn-primary" type="submit">Yuklash</button>
+  </form>
 </div>
+
+<script>
+  const dateMaqola = document.querySelector(".date-maqola");
+  const date = new Date();
+
+  const months = [
+    "Yan",
+    "Fev",
+    "Mart",
+    "Aprel",
+    "May",
+    "Iyun",
+    "Iyul",
+    "Avg",
+    "Sen",
+    "Okt",
+    "Noy",
+    "Dek",
+  ];
+
+  let articleTime =
+    date.getDate() + " " + months[date.getMonth()] + " " + date.getFullYear();
+  console.log("Article", articleTime);
+  dateMaqola.value = articleTime;
+</script>

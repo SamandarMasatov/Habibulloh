@@ -16,10 +16,10 @@ const storage = multer.diskStorage({
  
 const upload = multer({ storage: storage }) 
   
-router.post('/add', upload.single("image"), News.create);
+router.post('/add', News.create);
 router.get('/:id', News.getOne);
 router.delete('/delete/:id', News.deleteOne);
 router.put('/:id', News.updateInfo); 
-router.put('/update/:id', upload.single("image"), News.UpdateOne);
+router.put('/update/:id', News.UpdateOne);
 
 module.exports = router;

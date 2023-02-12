@@ -4,29 +4,15 @@ const fs = require('fs');
 
 exports.create = async (req, res) => {
     const result = new News({
-        name: {
-            uz: req.body.nameuz,
-            ru: req.body.nameru,
-            en: req.body.nameen
-          },
-        title: {
-            uz: req.body.titleuz,
-            ru: req.body.titleru,
-            en: req.body.titleen
-        },
-        year: req.body.year,
-        image: `${req.file.filename}`,
-        description: {
-            uz: req.body.descriptionuz,
-            ru: req.body.descriptionru,
-            en: req.body.descriptionen
-        }
+        title: req.body.title,
+        video: req.body.video,
+        date: req.body.date,
     });
     
     await result 
     .save()
     .then(() => {
-        res.redirect("/admin/news")
+        res.redirect("/admin/services")
         // res.status(200).json({ success: true, data: data });
     })
     .catch((error) => {
@@ -74,16 +60,9 @@ exports.UpdateOne = async (req, res, next) => {
 exports.updateInfo = async (req, res, next) => {
     const result = await News.findByIdAndUpdate({ _id: req.params.id });
 
-    result.name.uz = req.body.nameuz;
-    result.name.ru = req.body.nameru;
-    result.name.en = req.body.nameen;
-    result.title.uz = req.body.titleuz;
-    result.title.ru = req.body.titleru;
-    result.title.en = req.body.titleen;
-    result.year = req.body.year;
-    result.description.uz = req.body.descriptionuz;
-    result.description.ru = req.body.descriptionru;
-    result.description.en = req.body.descriptionen;
+    result.title = req.body.title;
+    result.video = req.body.video;
+    result.date = req.body.date;
     await result
         .save()
         .then(() => {

@@ -8,6 +8,7 @@ exports.create = async (req, res) => {
         description: req.body.description,
         image: `${req.file.filename}`,
         title: req.body.title,
+        date: req.body.date,
     });
     
     await result  

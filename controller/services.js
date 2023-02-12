@@ -4,26 +4,17 @@ const fs = require('fs');
 
 exports.create = async (req, res) => {  
     const result = new Services({
-        name: {
-            uz: req.body.nameuz,
-            ru: req.body.nameru,
-          }, 
-        title: {
-            uz: req.body.titleuz,
-            ru: req.body.titleru,
-        },
+        description: req.body.description,
         image: `${req.file.filename}`,
-        description: {
-            uz: req.body.descriptionuz,
-            ru: req.body.descriptionru,
-        }
+        title: req.body.title,
+        date: req.body.date,
     });
     
     await result 
     .save()
     .then(() => {
         res.redirect("/admin/services")
-        // res.status(200).json({ success: true, data: data });
+        // res.status(200).json({ success: true, data: data });  91 018 66 00
     })
     .catch((error) => {
         res.status(400).json({ success: false, data: error });

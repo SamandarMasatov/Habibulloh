@@ -1,82 +1,80 @@
-<h1>Xizmatlar qo'shish</h1> 
-<div class="container mt-3 mb-3">  
-    <form action="/services/add" method="POST" enctype="multipart/form-data" class="needs-validation" novalidate>
-        <!-- Xizmatning turi model name -->
-        <div class="mb-3"> 
-            <label class="form-label" for="validationCustom01">Xizmatning nomi Uzbek</label>
-            <input type="text" class="form-control" id="validationCustom01" placeholder="Xizmatning nomini yozing Uzbek tilida" name="nameuz" required>
-            <div class="invalid-feedback">
-                Xizmatning nomi yozilmagan 
-            </div>
-            <div class="valid-feedback">
-               Yaxshi
-            </div>
-        </div>
-        <div class="mb-3">
-            <label class="form-label" for="validationCustom01">Xizmatning nomi Rus</label>
-            <input type="text" class="form-control" id="validationCustom01" placeholder="Xizmatning nomini yozing Rus tilida" name="nameru" required>
-            <div class="invalid-feedback">
-                Xizmatning turi yozilmagan
-            </div>
-            <div class="valid-feedback">
-               Yaxshi
-            </div>
-        </div>
+<h1>Maruza qo'shish</h1>
+<div class="container mt-3 mb-3">
+  <form
+    action="/news/add"
+    method="POST"
+    enctype="multipart/form-data"
+    class="needs-validation"
+    novalidate
+  >
+    <!-- Xizmatning turi model name -->
+    <div class="mb-3">
+      <label class="form-label" for="validationCustom01"
+        >Videoning sarlavhasi</label
+      >
+      <input
+        type="text"
+        class="form-control"
+        id="validationCustom01"
+        placeholder="Videoning sarlavhasini yozing"
+        name="title"
+        required
+      />
+      <div class="invalid-feedback">Videoning sarlavhasi</div>
+      <div class="valid-feedback">Yaxshi</div>
+    </div>
+    <hr style="color: red; height: 2px" />
 
-        <hr style="color: red; height: 2px;">
-<!-- Xizmatning sarlavhasi model title -->
-        <div class="mb-3">
-            <label class="form-label" for="validationCustom01">Xizmatning sarlavhasi Uzbek tilida 10 ta yoki 15 so'z yozing</label>
-            <input type="text" class="form-control" id="validationCustom01" placeholder="Xizmatning Sarlavhasini yozing uzbek tilida" name="titleuz" required>
-            <div class="invalid-feedback">
-                Xizmatning Sarlavhasi yozilmagan
-            </div>
-            <div class="valid-feedback">
-               Yaxshi
-            </div>
-        </div>
+    <!-- Xizmatning turi model name -->
+    <div class="mb-3">
+      <label class="form-label" for="validationCustom01">Videoning linki</label>
+      <input
+        type="text"
+        class="form-control"
+        id="validationCustom01"
+        placeholder="Videoning linkini yozing"
+        name="video"
+        required
+      />
+      <div class="invalid-feedback">Videoning linki yozilmagan</div>
+      <div class="valid-feedback">Yaxshi</div>
+    </div>
+    <hr style="color: red; height: 2px" />
+    <div class="mb-3">
+      <input
+        type="hidden"
+        class="form-control date-maqola"
+        id="validationCustom01"
+        name="date"
+        required
+      />
+    </div>
 
-        <div class="mb-3">
-            <label class="form-label" for="validationCustom01">Xizmatning sarlavhasi Rus tilida 10 ta yoki 15 so'z yozing</label>
-            <input type="text" class="form-control" id="validationCustom01" placeholder="Xizmatning Sarlavhasini yozing rus tilida" name="titleru" required>
-            <div class="invalid-feedback">
-                Xizmatning Sarlavhasi yozilmagan
-            </div>
-            <div class="valid-feedback">
-               Yaxshi
-            </div>
-        </div>
+    <button class="btn btn-primary" type="submit">Yuklash</button>
+  </form>
+</div>
 
+<script>
+  const dateMaqola = document.querySelector(".date-maqola");
+  const date = new Date();
 
-        <hr style="color: red; height: 2px;">
-<!-- Xizmatning rasmi model file -->
-        <div class="mb-3">
-            <label class="form-label" for="validationCustom01">Xizmatning rasmi</label>
-            <input type="file" class="form-control" id="validationCustom01" placeholder="Xizmatning rasmini tanlang" name="image" required>
-            <div class="invalid-feedback">
-                Xizmatning rasmi tanlanmagan
-            </div>
-            <div class="valid-feedback">
-               Rasm tanlandi
-            </div>
-        </div>
-        <hr style="color: red; height: 2px;">
-<!-- Xizmat haqida  model description -->
-        <div class="mb-3">
-            <label class="form-label"  >Xizmat haqida Uzbek tilida</label>
-            <textarea class="form-control "  rows="5" 
-                placeholder="Xizmat haqida yozing Uzbek tilida" name="descriptionuz" ></textarea>
-            
-        </div>
-        <div class="mb-3">
-            <label class="form-label">Xizmat haqida Rus tilida</label>
-            <textarea class="form-control "  rows="5" 
-                placeholder="Xizmat haqida yozing rus tilida" name="descriptionru" ></textarea>
-            
-        </div>
+  const months = [
+    "Yan",
+    "Fev",
+    "Mart",
+    "Aprel",
+    "May",
+    "Iyun",
+    "Iyul",
+    "Avg",
+    "Sen",
+    "Okt",
+    "Noy",
+    "Dek",
+  ];
 
-        
-        
-        <button class="btn btn-primary" type="submit">Yuklash</button>
-    </form>
-</div> 
+  let articleTime =
+    date.getDate() + " " + months[date.getMonth()] + " " + date.getFullYear();
+  console.log("Article", articleTime);
+  dateMaqola.value = articleTime;
+</script>

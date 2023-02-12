@@ -34,9 +34,9 @@ exports.services_add = async (req, res) => {
     })
 }
 exports.services = async (req, res) => {
-    const services = await Services.find().sort({date: -1});
+    const services = await News.find().sort({createdAt: -1});
     res.render("./admin/services", { 
-        title: "Stroy Montaj Invest Xizmatlari", 
+        title: "Video maruzalar", 
         layout: "./admin_layout",
         services
     })
@@ -44,14 +44,14 @@ exports.services = async (req, res) => {
 
 exports.aboutAdd = async (req, res) => {
     res.render("./admin/about_add", {  
-        title: "Kompanya haqida", 
+        title: "Maruza haqida", 
         layout: "./admin_layout",
     })
 }
 exports.abouts = async (req, res) => {
-    const abouts = await Abouts.find().sort({date: -1});
+    const abouts = await Abouts.find().sort({createdAt: -1});
     res.render("./admin/abouts", { 
-        title: "Kompanya haqida", 
+        title: "Maruza haqida", 
         layout: "./admin_layout",
         abouts,
     })
@@ -77,8 +77,8 @@ exports.articleAdd = async (req, res) => {
     })
 }
 exports.articles = async (req, res) => {
-    const articles = await Article.find().sort({date: -1});
-    res.render("./admin/articles", { 
+    const articles = await Article.find().sort({ createdAt: -1 });
+    res.render("./admin/articles", {    
         title: "Maqollar haqida", 
         layout: "./admin_layout",
         articles,
